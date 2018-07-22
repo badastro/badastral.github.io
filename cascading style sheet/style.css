@@ -6050,7 +6050,7 @@ section#newsletter ul#newsletter-parallax-scene {
     left: 87%;
     top: 60px; }
 
-/*section#fakes ul#marketplace-parallax-scene {
+section#fakes ul#marketplace-parallax-scene {
   position: absolute;
   width: 100%; }
   section#fakes ul#marketplace-parallax-scene li.layer img.half-circle-top-blue {
@@ -6058,11 +6058,11 @@ section#newsletter ul#newsletter-parallax-scene {
     left: 5%;
     top: 0;
     z-index: -9999; }
-  section#fakes ul#marketplace-parallax-scene li.layer img.swiggle-angle-left-grey {
+  section#fakes ul#marketplace-parallax-scene li.layer img.Weird {
     width: 110px;
     left: 80%;
     top: 143px;
-    z-index: -9999; }*/
+    z-index: -9999; }
 
 .parallax-header {
   overflow: hidden;
@@ -6659,7 +6659,7 @@ section#stays-home {
     min-height: 700px;
     width: 100%;
     display: block;
-    background: #FFFFFF url("../Memories/2013/2013-11-17/Spamalot.jpg") center center no-repeat;
+    background: #FFFFFF url("../Memories/Stays In This Universe.gif") center center no-repeat;
     background-size: cover; }
   section#stays-home a {
     letter-spacing: 2px;
@@ -7392,17 +7392,17 @@ section#thanks {
           text-decoration: none;
           box-shadow: 0px 0px 0px 0px #EE2026;
           transition: all .3s ease; }
-  section#thanks div.platinum h4,
-  section#thanks div.gold h4,
-  section#thanks div.silver h4,
+  section#thanks div.families h4,
+  section#thanks div.mentors h4,
+  section#thanks div.friends h4,
   section#thanks div.in-kind h4 {
     text-transform: uppercase;
     color: #1a453b;
     border-bottom: 1px solid #1a453b;
     padding-bottom: 20px; }
-  section#thanks div.platinum ul,
-  section#thanks div.gold ul,
-  section#thanks div.silver ul,
+  section#thanks div.families ul,
+  section#thanks div.mentors ul,
+  section#thanks div.friends ul,
   section#thanks div.in-kind ul {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -7411,49 +7411,49 @@ section#thanks {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 50px 0; }
-    section#thanks div.platinum ul li,
-    section#thanks div.gold ul li,
-    section#thanks div.silver ul li,
+    section#thanks div.families ul li,
+    section#thanks div.mentors ul li,
+    section#thanks div.friends ul li,
     section#thanks div.in-kind ul li {
       margin-bottom: 30px; }
-      section#thanks div.platinum ul li a img,
-      section#thanks div.gold ul li a img,
-      section#thanks div.silver ul li a img,
+      section#thanks div.families ul li a img,
+      section#thanks div.mentors ul li a img,
+      section#thanks div.friends ul li a img,
       section#thanks div.in-kind ul li a img {
         width: 90%;
         max-width: 350px; }
-  section#thanks div.platinum ul li {
+  section#thanks div.families ul li {
     width: 33%; }
     @media (max-width: 767px) {
-      section#thanks div.platinum ul li {
+      section#thanks div.families ul li {
         width: 50%; } }
     @media (max-width: 543px) {
-      section#thanks div.platinum ul li {
+      section#thanks div.families ul li {
         width: 100%; }
-        section#thanks div.platinum ul li a img {
+        section#thanks div.families ul li a img {
           width: 100%; } }
-  section#thanks div.gold ul li {
+  section#thanks div.mentors ul li {
     width: 25%; }
     @media (max-width: 767px) {
-      section#thanks div.gold ul li {
+      section#thanks div.mentors ul li {
         width: 50%; } }
     @media (max-width: 543px) {
-      section#thanks div.gold ul li {
+      section#thanks div.mentors ul li {
         width: 100%; }
-        section#thanks div.gold ul li a img {
+        section#thanks div.mentors ul li a img {
           width: 100%; } }
-  section#thanks div.silver ul li {
+  section#thanks div.friends ul li {
     width: 20%; }
     @media (max-width: 767px) {
-      section#thanks div.silver ul li {
+      section#thanks div.friends ul li {
         width: 50%; } }
     @media (max-width: 543px) {
-      section#thanks div.silver ul li {
+      section#thanks div.friends ul li {
         width: 100%; }
-        section#thanks div.silver ul li a img {
+        section#thanks div.friends ul li a img {
           width: 100%;
           max-width: 100% !important; } }
-    section#thanks div.silver ul li a img {
+    section#thanks div.friends ul li a img {
       max-width: 230px; }
   section#thanks div.in-kind ul li {
     width: 20%; }
