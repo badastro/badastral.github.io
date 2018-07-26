@@ -1,2 +1,2 @@
 # badastral.github.io
-https://www.badastral.com
+https://www.badastral.com/
