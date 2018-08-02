@@ -5819,6 +5819,7 @@ ul#thanks-home-parallax-scene li.layer,
 ul#stays-home-parallax-scene li.layer,
 ul#newsletter-parallax-scene li.layer,
 ul#projections-parallax-scene li.layer,
+ul#tale-parallax-scene li.layer,
 ul#marketplace-parallax-scene li.layer,
 ul#thanks-parallax-scene li.layer,
 ul#fakes-parallax-scene li.layer {
@@ -5834,6 +5835,7 @@ ul#fakes-parallax-scene li.layer {
   ul#stays-home-parallax-scene li.layer img.equation,
   ul#newsletter-parallax-scene li.layer img.equation,
   ul#projections-parallax-scene li.layer img.equation,
+  ul#tale-parallax-scene li.layer img.equation,
   ul#marketplace-parallax-scene li.layer img.equation,
   ul#thanks-parallax-scene li.layer img.equation,
   ul#fakes-parallax-scene li.layer img.equation {
@@ -5850,6 +5852,7 @@ ul#fakes-parallax-scene li.layer {
   ul#stays-home-parallax-scene,
   ul#newsletter-parallax-scene,
   ul#projections-parallax-scene,
+  ul#tale-parallax-scene,
   ul#marketplace-parallax-scene,
   ul#thanks-parallax-scene,
   ul#fakes-parallax-scene {
@@ -6744,286 +6747,6 @@ section#thanks-home {
       box-shadow: 0px 0px 0px 0px #EE2026;
       transition: all .3s ease; }
 
-section#spirits {
-  padding: 150px 50px;
-  position: relative; }
-  @media (max-width: 991px) {
-    section#spirits {
-      padding: 50px; } }
-  @media (max-width: 767px) {
-    section#spirits {
-      padding: 50px 20px; } }
-  section#spirits h3 {
-    color: #F1881F;
-    margin: 25px 0 90px;
-    text-align: left;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: -1px 1px 0px #F1881F, -2px 2px 0px #CAE4F8; }
-    @media (max-width: 991px) {
-      section#spirits h3 {
-        margin-bottom: 50px; } }
-    @media (max-width: 767px) {
-      section#spirits h3 {
-        font-size: 34px; } }
-    @media (max-width: 543px) {
-      section#spirits h3 {
-        text-align: center; } }
-  section#spirits h4 {
-    text-transform: uppercase;
-    color: #F1881F; }
-  section#spirits i {
-    color: #F1881F; }
-  section#spirits svg g {
-    fill: #F1881F;
-    transition: all .3s ease; }
-  section#spirits svg:hover g {
-    fill: #FFFFFF;
-    transition: all .3s ease; }
-  section#spirits ul li.spirit {
-    border-top: 1px solid #1a453b;
-    padding: 50px 0;
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    section#spirits ul li.spirit div.spirit-image {
-      width: 40%; }
-      @media (max-width: 767px) {
-        section#spirits ul li.spirit div.spirit-image {
-          width: 100%;
-          margin-bottom: 20px; } }
-      section#spirits ul li.spirit div.spirit-image img {
-        max-width: 450px;
-        width: 100%; }
-        @media (max-width: 991px) {
-          section#spirits ul li.spirit div.spirit-image img {
-            width: 80%; } }
-    section#spirits ul li.spirit div.spirit-deets {
-      width: 60%; }
-      @media (max-width: 767px) {
-        section#spirits ul li.spirit div.spirit-deets {
-          width: 100%; } }
-      section#spirits ul li.spirit div.spirit-deets ul.social-nav {
-        float: right;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-        justify-content: flex-end; }
-        @media (max-width: 543px) {
-          section#spirits ul li.spirit div.spirit-deets ul.social-nav {
-            display: none; } }
-        section#spirits ul li.spirit div.spirit-deets ul.social-nav li {
-          margin-right: 20px;
-          padding: 0;
-          border: none; }
-          section#spirits ul li.spirit div.spirit-deets ul.social-nav li:last-child {
-            margin-right: 0; }
-  section#spirits .more-spirits {
-    position: relative;
-    float: left;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 100px;
-    padding: 100px;
-    border: 1px solid #F1881F;
-    box-shadow: -15px 15px 0px 0px #F1881F, -14px 14px 0px 0px #F1881F, -13px 13px 0px 0px #F1881F, -12px 12px 0px 0px #F1881F, -11px 11px 0px 0px #F1881F, -10px 10px 0px 0px #F1881F, -9px 9px 0px 0px #F1881F, -8px 8px 0px 0px #F1881F, -7px 7px 0px 0px #F1881F, -6px 6px 0px 0px #F1881F, -5px 5px 0px 0px #F1881F, -4px 4px 0px 0px #F1881F, -3px 3px 0px 0px #F1881F, -2px 2px 0px 0px #F1881F, -1px 1px 0px 0px #F1881F, 0px 0px 0px 0px #F1881F;
-    transition: all .3s ease;
-    background: #FFFFFF url("file:///C|/Users/ASTRO/Documents/badastral.com/badastral.com/content/themes/astro-press/resources/assets/images/microphone.jpg");
-    background-position-y: 0;
-    background-position-x: 90%;
-    background-size: 80px;
-    background-repeat: no-repeat; }
-    @media (max-width: 991px) {
-      section#spirits .more-spirits {
-        padding: 50px 100px 50px 50px;
-        background-size: 60px; } }
-    @media (max-width: 767px) {
-      section#spirits .more-spirits {
-        width: 90%;
-        margin-left: 5%; } }
-    @media (max-width: 543px) {
-      section#spirits .more-spirits {
-        width: 90%;
-        margin-left: 5%;
-        padding: 30px;
-        background-size: 40px;
-        margin-top: 20px; } }
-    section#spirits .more-spirits span.top {
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 50px;
-      display: block;
-      float: left;
-      clear: both;
-      margin-bottom: 10px;
-      color: #3c3b6e; }
-      @media (max-width: 543px) {
-        section#spirits .more-spirits span.top {
-          font-size: 36px; } }
-    section#spirits .more-spirits span.bottom {
-      display: block;
-      clear: both;
-      color: #F1881F;
-      text-transform: uppercase; }
-      @media (max-width: 543px) {
-        section#spirits .more-spirits span.bottom {
-          font-size: 24px; } }
-    section#spirits .more-spirits:hover {
-      box-shadow: 0px 0px 0px 0px #F1881F;
-      transition: all .3s ease; }
-
-section#zodiac {
-  clear: both;
-  padding: 150px 50px;
-  position: relative; }
-  @media (max-width: 991px) {
-    section#zodiac {
-      padding: 50px; } }
-  @media (max-width: 767px) {
-    section#zodiac {
-      padding: 50px 20px; } }
-  section#zodiac h3 {
-    color: #1a453b;
-    margin: 25px 0 90px;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-shadow: -1px 1px 0px #FFFFFF, -2px 2px 0px #CAE4F8; }
-    @media (max-width: 991px) {
-      section#zodiac h3 {
-        margin-bottom: 50px; } }
-    @media (max-width: 767px) {
-      section#zodiac h3 {
-        font-size: 34px; } }
-    @media (max-width: 543px) {
-      section#zodiac h3 {
-        text-align: center; } }
-  section#zodiac ul.nav {
-    border-bottom: 1px solid #1a453b; }
-    @media (max-width: 543px) {
-      section#zodiac ul.nav {
-        border-bottom: none; } }
-    section#zodiac ul.nav li {
-      float: left;
-      display: block;
-      background: #FFFFFF;
-      width: 20%;
-      text-align: center; }
-      @media (max-width: 767px) {
-        section#zodiac ul.nav li {
-          width: 50%; }
-          section#zodiac ul.nav li:nth-child(2) {
-            border-right: 1px solid #1a453b; } }
-      @media (max-width: 543px) {
-        section#zodiac ul.nav li {
-          width: 100%; }
-          section#zodiac ul.nav li:nth-child(1), section#zodiac ul.nav li:nth-child(3) {
-            border-right: 1px solid #1a453b; } }
-      section#zodiac ul.nav li a {
-        width: 100%;
-        padding: 15px;
-        color: #1a453b;
-        display: block;
-        border-top: 1px solid #1a453b;
-        border-bottom: none;
-        border-left: 1px solid #1a453b;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 500;
-        transition: all .3s ease; }
-        section#zodiac ul.nav li a:hover {
-          text-decoration: none;
-          background: #1a453b;
-          color: #FFFFFF;
-          border-color: #1a453b;
-          letter-spacing: 2px; }
-      @media (max-width: 543px) {
-        section#zodiac ul.nav li:last-child {
-          border-bottom: 1px solid #1a453b; } }
-      section#zodiac ul.nav li:last-child a {
-        border-right: 1px solid #1a453b; }
-      section#zodiac ul.nav li:last-child.active a {
-        border-right: 1px solid #1a453b; }
-      section#zodiac ul.nav li.active a {
-        text-decoration: none;
-        background: #EE2026;
-        color: #FFFFFF;
-        border-color: #EE2026;
-        letter-spacing: 2px;
-        border-top: 1px solid #1a453b;
-        border-left: 1px solid #1a453b; }
-        @media (max-width: 543px) {
-          section#zodiac ul.nav li.active a {
-            width: 100%; } }
-  section#zodiac div.tab-content {
-    padding: 0 0 30px 0; }
-    section#zodiac div.tab-content ul {
-      border-bottom: none; }
-      section#zodiac div.tab-content ul li {
-        width: 100%;
-        border-bottom: 1px solid #1a453b;
-        padding: 50px 0;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-        justify-content: flex-start; }
-        section#zodiac div.tab-content ul li div.time {
-          width: 10%; }
-          @media (max-width: 767px) {
-            section#zodiac div.tab-content ul li div.time {
-              width: 20%; } }
-          @media (max-width: 543px) {
-            section#zodiac div.tab-content ul li div.time {
-              width: 100%; } }
-          section#zodiac div.tab-content ul li div.time p {
-            color: #0E745D; }
-        section#zodiac div.tab-content ul li div.image {
-          min-width: 20%; }
-          @media (max-width: 767px) {
-            section#zodiac div.tab-content ul li div.image {
-              display: none; } }
-          section#zodiac div.tab-content ul li div.image img {
-            max-width: 200px; }
-        section#zodiac div.tab-content ul li div.deets {
-          width: 60%; }
-          @media (max-width: 767px) {
-            section#zodiac div.tab-content ul li div.deets {
-              width: 80%; } }
-          @media (max-width: 543px) {
-            section#zodiac div.tab-content ul li div.deets {
-              width: 100%; } }
-          section#zodiac div.tab-content ul li div.deets h4 {
-            text-transform: uppercase;
-            color: #1a453b;
-            line-height: 32px; }
-  section#zodiac a.back-to-top {
-    text-align: center;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin: 0 auto;
-    display: block; }
-
 section#projections {
   clear: both;
   padding: 150px 50px 0;
@@ -7311,6 +7034,286 @@ section#projections {
   section#projections .center-text {
     text-align: center; }
 
+section#spirits {
+  padding: 150px 50px;
+  position: relative; }
+  @media (max-width: 991px) {
+    section#spirits {
+      padding: 50px; } }
+  @media (max-width: 767px) {
+    section#spirits {
+      padding: 50px 20px; } }
+  section#spirits h3 {
+    color: #F1881F;
+    margin: 25px 0 90px;
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px 0px #F1881F, -2px 2px 0px #CAE4F8; }
+    @media (max-width: 991px) {
+      section#spirits h3 {
+        margin-bottom: 50px; } }
+    @media (max-width: 767px) {
+      section#spirits h3 {
+        font-size: 34px; } }
+    @media (max-width: 543px) {
+      section#spirits h3 {
+        text-align: center; } }
+  section#spirits h4 {
+    text-transform: uppercase;
+    color: #F1881F; }
+  section#spirits i {
+    color: #F1881F; }
+  section#spirits svg g {
+    fill: #F1881F;
+    transition: all .3s ease; }
+  section#spirits svg:hover g {
+    fill: #FFFFFF;
+    transition: all .3s ease; }
+  section#spirits ul li.spirit {
+    border-top: 1px solid #1a453b;
+    padding: 50px 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    section#spirits ul li.spirit div.spirit-image {
+      width: 40%; }
+      @media (max-width: 767px) {
+        section#spirits ul li.spirit div.spirit-image {
+          width: 100%;
+          margin-bottom: 20px; } }
+      section#spirits ul li.spirit div.spirit-image img {
+        max-width: 450px;
+        width: 100%; }
+        @media (max-width: 991px) {
+          section#spirits ul li.spirit div.spirit-image img {
+            width: 80%; } }
+    section#spirits ul li.spirit div.spirit-deets {
+      width: 60%; }
+      @media (max-width: 767px) {
+        section#spirits ul li.spirit div.spirit-deets {
+          width: 100%; } }
+      section#spirits ul li.spirit div.spirit-deets ul.social-nav {
+        float: right;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; }
+        @media (max-width: 543px) {
+          section#spirits ul li.spirit div.spirit-deets ul.social-nav {
+            display: none; } }
+        section#spirits ul li.spirit div.spirit-deets ul.social-nav li {
+          margin-right: 20px;
+          padding: 0;
+          border: none; }
+          section#spirits ul li.spirit div.spirit-deets ul.social-nav li:last-child {
+            margin-right: 0; }
+  section#spirits .more-spirits {
+    position: relative;
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    padding: 100px;
+    border: 1px solid #F1881F;
+    box-shadow: -15px 15px 0px 0px #F1881F, -14px 14px 0px 0px #F1881F, -13px 13px 0px 0px #F1881F, -12px 12px 0px 0px #F1881F, -11px 11px 0px 0px #F1881F, -10px 10px 0px 0px #F1881F, -9px 9px 0px 0px #F1881F, -8px 8px 0px 0px #F1881F, -7px 7px 0px 0px #F1881F, -6px 6px 0px 0px #F1881F, -5px 5px 0px 0px #F1881F, -4px 4px 0px 0px #F1881F, -3px 3px 0px 0px #F1881F, -2px 2px 0px 0px #F1881F, -1px 1px 0px 0px #F1881F, 0px 0px 0px 0px #F1881F;
+    transition: all .3s ease;
+    background: #FFFFFF url("file:///C|/Users/ASTRO/Documents/badastral.com/badastral.com/content/themes/astro-press/resources/assets/images/microphone.jpg");
+    background-position-y: 0;
+    background-position-x: 90%;
+    background-size: 80px;
+    background-repeat: no-repeat; }
+    @media (max-width: 991px) {
+      section#spirits .more-spirits {
+        padding: 50px 100px 50px 50px;
+        background-size: 60px; } }
+    @media (max-width: 767px) {
+      section#spirits .more-spirits {
+        width: 90%;
+        margin-left: 5%; } }
+    @media (max-width: 543px) {
+      section#spirits .more-spirits {
+        width: 90%;
+        margin-left: 5%;
+        padding: 30px;
+        background-size: 40px;
+        margin-top: 20px; } }
+    section#spirits .more-spirits span.top {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 50px;
+      display: block;
+      float: left;
+      clear: both;
+      margin-bottom: 10px;
+      color: #3c3b6e; }
+      @media (max-width: 543px) {
+        section#spirits .more-spirits span.top {
+          font-size: 36px; } }
+    section#spirits .more-spirits span.bottom {
+      display: block;
+      clear: both;
+      color: #F1881F;
+      text-transform: uppercase; }
+      @media (max-width: 543px) {
+        section#spirits .more-spirits span.bottom {
+          font-size: 24px; } }
+    section#spirits .more-spirits:hover {
+      box-shadow: 0px 0px 0px 0px #F1881F;
+      transition: all .3s ease; }
+
+section#zodiac {
+  clear: both;
+  padding: 150px 50px;
+  position: relative; }
+  @media (max-width: 991px) {
+    section#zodiac {
+      padding: 50px; } }
+  @media (max-width: 767px) {
+    section#zodiac {
+      padding: 50px 20px; } }
+  section#zodiac h3 {
+    color: #1a453b;
+    margin: 25px 0 90px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px 0px #FFFFFF, -2px 2px 0px #CAE4F8; }
+    @media (max-width: 991px) {
+      section#zodiac h3 {
+        margin-bottom: 50px; } }
+    @media (max-width: 767px) {
+      section#zodiac h3 {
+        font-size: 34px; } }
+    @media (max-width: 543px) {
+      section#zodiac h3 {
+        text-align: center; } }
+  section#zodiac ul.nav {
+    border-bottom: 1px solid #1a453b; }
+    @media (max-width: 543px) {
+      section#zodiac ul.nav {
+        border-bottom: none; } }
+    section#zodiac ul.nav li {
+      float: left;
+      display: block;
+      background: #FFFFFF;
+      width: 20%;
+      text-align: center; }
+      @media (max-width: 767px) {
+        section#zodiac ul.nav li {
+          width: 50%; }
+          section#zodiac ul.nav li:nth-child(2) {
+            border-right: 1px solid #1a453b; } }
+      @media (max-width: 543px) {
+        section#zodiac ul.nav li {
+          width: 100%; }
+          section#zodiac ul.nav li:nth-child(1), section#zodiac ul.nav li:nth-child(3) {
+            border-right: 1px solid #1a453b; } }
+      section#zodiac ul.nav li a {
+        width: 100%;
+        padding: 15px;
+        color: #1a453b;
+        display: block;
+        border-top: 1px solid #1a453b;
+        border-bottom: none;
+        border-left: 1px solid #1a453b;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all .3s ease; }
+        section#zodiac ul.nav li a:hover {
+          text-decoration: none;
+          background: #1a453b;
+          color: #FFFFFF;
+          border-color: #1a453b;
+          letter-spacing: 2px; }
+      @media (max-width: 543px) {
+        section#zodiac ul.nav li:last-child {
+          border-bottom: 1px solid #1a453b; } }
+      section#zodiac ul.nav li:last-child a {
+        border-right: 1px solid #1a453b; }
+      section#zodiac ul.nav li:last-child.active a {
+        border-right: 1px solid #1a453b; }
+      section#zodiac ul.nav li.active a {
+        text-decoration: none;
+        background: #EE2026;
+        color: #FFFFFF;
+        border-color: #EE2026;
+        letter-spacing: 2px;
+        border-top: 1px solid #1a453b;
+        border-left: 1px solid #1a453b; }
+        @media (max-width: 543px) {
+          section#zodiac ul.nav li.active a {
+            width: 100%; } }
+  section#zodiac div.tab-content {
+    padding: 0 0 30px 0; }
+    section#zodiac div.tab-content ul {
+      border-bottom: none; }
+      section#zodiac div.tab-content ul li {
+        width: 100%;
+        border-bottom: 1px solid #1a453b;
+        padding: 50px 0;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start; }
+        section#zodiac div.tab-content ul li div.time {
+          width: 10%; }
+          @media (max-width: 767px) {
+            section#zodiac div.tab-content ul li div.time {
+              width: 20%; } }
+          @media (max-width: 543px) {
+            section#zodiac div.tab-content ul li div.time {
+              width: 100%; } }
+          section#zodiac div.tab-content ul li div.time p {
+            color: #0E745D; }
+        section#zodiac div.tab-content ul li div.image {
+          min-width: 20%; }
+          @media (max-width: 767px) {
+            section#zodiac div.tab-content ul li div.image {
+              display: none; } }
+          section#zodiac div.tab-content ul li div.image img {
+            max-width: 200px; }
+        section#zodiac div.tab-content ul li div.deets {
+          width: 60%; }
+          @media (max-width: 767px) {
+            section#zodiac div.tab-content ul li div.deets {
+              width: 80%; } }
+          @media (max-width: 543px) {
+            section#zodiac div.tab-content ul li div.deets {
+              width: 100%; } }
+          section#zodiac div.tab-content ul li div.deets h4 {
+            text-transform: uppercase;
+            color: #1a453b;
+            line-height: 32px; }
+  section#zodiac a.back-to-top {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block; }
+
 section#thanks {
   clear: both;
   padding: 150px 50px 0;
@@ -7468,6 +7471,293 @@ section#thanks {
           max-width: 100% !important; } }
     section#thanks div.in-kind ul li a img {
       max-width: 230px; }
+
+section#tale {
+  clear: both;
+  padding: 150px 50px 0;
+  position: relative; }
+  @media (max-width: 991px) {
+    section#tale {
+      padding: 50px 50px 0; } }
+  @media (max-width: 767px) {
+    section#tale {
+      padding: 50px 20px 0; } }
+  section#tale h3 {
+    color: #1a453b;
+    margin: 25px 0 90px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px 0px #FFFFFF, -2px 2px 0px #CAE4F8; }
+    @media (max-width: 991px) {
+      section#tale h3 {
+        margin-bottom: 50px; } }
+    @media (max-width: 767px) {
+      section#tale h3 {
+        font-size: 34px; } }
+    @media (max-width: 543px) {
+      section#tale h3 {
+        text-align: center; } }
+  section#tale h4 {
+    text-transform: uppercase;
+    color: #1a453b; }
+  section#tale ul#tabs {
+    border: none; }
+    section#tale ul#tabs li {
+      float: left;
+      display: block;
+      text-align: center;
+      margin-right: 40px; }
+      @media (max-width: 991px) {
+        section#tale ul#tabs li {
+          margin-bottom: 30px; } }
+      @media (max-width: 543px) {
+        section#tale ul#tabs li {
+          width: 100%;
+          margin-right: 0; } }
+      section#tale ul#tabs li a {
+        letter-spacing: 2px;
+        clear: both;
+        border: 1px solid #EE2026;
+        box-shadow: -10px 10px 0px 0px #EE2026, -9px 9px 0px 0px #EE2026, -8px 8px 0px 0px #EE2026, -7px 7px 0px 0px #EE2026, -6px 6px 0px 0px #EE2026, -5px 5px 0px 0px #EE2026, -4px 4px 0px 0px #EE2026, -3px 3px 0px 0px #EE2026, -2px 2px 0px 0px #EE2026, -1px 1px 0px 0px #EE2026, 0px 0px 0px 0px #EE2026;
+        background: #FFFFFF;
+        display: block;
+        padding: 20px 30px;
+        text-transform: uppercase;
+        max-width: 310px;
+        text-align: center;
+        font-weight: 500;
+        color: #EE2026;
+        transition: all .3s ease; }
+        @media (max-width: 543px) {
+          section#tale ul#tabs li a {
+            max-width: 100%;
+            box-shadow: -5px 5px 0px 0px #EE2026, -4px 4px 0px 0px #EE2026, -3px 3px 0px 0px #EE2026, -2px 2px 0px 0px #EE2026, -1px 1px 0px 0px #EE2026, 0px 0px 0px 0px #EE2026; } }
+        section#tale ul#tabs li a:hover {
+          text-decoration: none;
+          box-shadow: 0px 0px 0px 0px #EE2026;
+          transition: all .3s ease; }
+      section#tale ul#tabs li:last-child {
+        margin-right: 0; }
+      section#tale ul#tabs li.active a {
+        border: 1px solid #1a453b;
+        box-shadow: -10px 10px 0px 0px #1a453b, -9px 9px 0px 0px #1a453b, -8px 8px 0px 0px #1a453b, -7px 7px 0px 0px #1a453b, -6px 6px 0px 0px #1a453b, -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b;
+        color: #1a453b; }
+        @media (max-width: 543px) {
+          section#tale ul#tabs li.active a {
+            box-shadow: -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b; } }
+        section#tale ul#tabs li.active a:hover {
+          box-shadow: -10px 10px 0px 0px #1a453b, -9px 9px 0px 0px #1a453b, -8px 8px 0px 0px #1a453b, -7px 7px 0px 0px #1a453b, -6px 6px 0px 0px #1a453b, -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b;
+          transition: none; }
+          @media (max-width: 543px) {
+            section#tale ul#tabs li.active a:hover {
+              box-shadow: -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b; } }
+  section#tale div.tab-content ul li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    border-bottom: solid #D9D9D9; }
+  section#tale .tab-pane {
+    padding-top: 100px; }
+    @media (max-width: 991px) {
+      section#tale .tab-pane {
+        padding-top: 50px; } }
+    section#tale .tab-pane h4 {
+      text-transform: uppercase;
+      line-height: 35px; }
+    section#tale .tab-pane h5 {
+      margin-top: 50px;
+      text-transform: uppercase;
+      line-height: 30px; }
+    section#tale .tab-pane div.about {
+      margin-top: 50px;
+      margin-bottom: 100px; }
+      @media (max-width: 767px) {
+        section#tale .tab-pane div.about {
+          margin-bottom: 50px; } }
+      section#tale .tab-pane div.about img {
+        width: 100%; }
+        @media (max-width: 767px) {
+          section#tale .tab-pane div.about img {
+            display: none; } }
+      section#tale .tab-pane div.about div.about-img-mobile {
+        display: block;
+        width: 100%;
+        height: 300px;
+        background-size: 100%;
+        background-position: center; }
+        @media (min-width: 768px) {
+          section#tale .tab-pane div.about div.about-img-mobile {
+            display: none; } }
+      section#tale .tab-pane div.about .about-map,
+      section#tale .tab-pane div.about .accommodation-map {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        border-top: 5px solid #FFFFFF; }
+        @media (max-width: 767px) {
+          section#tale .tab-pane div.about .about-map,
+          section#tale .tab-pane div.about .accommodation-map {
+            display: none; } }
+      section#tale .tab-pane div.about div.tale {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row; }
+        section#tale .tab-pane div.about div.tale div.description {
+          width: 60%; }
+          @media (max-width: 767px) {
+            section#tale .tab-pane div.about div.tale div.description {
+              width: 100%; }
+              section#tale .tab-pane div.about div.tale div.description h5 {
+                margin-top: 25px; } }
+        section#tale .tab-pane div.about div.tale div.address {
+          width: 40%;
+          padding-left: 100px; }
+          @media (max-width: 767px) {
+            section#tale .tab-pane div.about div.tale div.address {
+              width: 100%;
+              padding-left: 0; } }
+          @media (max-width: 767px) {
+            section#tale .tab-pane div.about div.tale div.address h5 {
+              margin-top: 20px; } }
+          section#tale .tab-pane div.about div.tale div.address a {
+            border: 1px solid #EE2026;
+            padding: 5px;
+            text-align: center;
+            max-width: 160px;
+            margin-top: 20px;
+            font-size: 12px;
+            width: 100%;
+            display: block;
+            text-transform: uppercase; }
+            section#tale .tab-pane div.about div.tale div.address a:hover {
+              color: #1a453b;
+              border-color: #1a453b; }
+    section#tale .tab-pane ul.film-festivals {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100%;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+      section#tale .tab-pane ul.film-festivals li {
+        width: 25%;
+        margin: 50px 0;
+        border: none; }
+        @media (max-width: 767px) {
+          section#tale .tab-pane ul.film-festivals li {
+            width: 100% !important;
+            margin: 0 !important; } }
+        @media (max-width: 991px) {
+          section#tale .tab-pane ul.film-festivals li {
+            width: 33.3%;
+            margin-bottom: 20px; } }
+        section#tale .tab-pane ul.film-festivals li h5 {
+          margin-top: 0; }
+          @media (max-width: 767px) {
+            section#tale .tab-pane ul.film-festivals li h5 {
+              margin-top: 20px; } }
+        section#tale .tab-pane ul.film-festivals li a {
+          text-transform: uppercase;
+          display: block;
+          margin-top: 9px;
+          border: 1px solid #EE2026;
+          padding: 5px;
+          text-align: center;
+          max-width: 160px;
+          margin-top: 20px;
+          font-size: 12px; }
+          section#tale .tab-pane ul.film-festivals li a:hover {
+            color: #1a453b;
+            border-color: #1a453b; }
+          section#tale .tab-pane ul.film-festivals li a span {
+            font-size: 12px;
+            margin-left: 10px; }
+          section#tale .tab-pane ul.film-festivals li a.airbnb {
+            max-width: 100%;
+            background: #FF5A5F;
+            border-radius: 2px;
+            padding: 30px;
+            text-align: center;
+            color: #FFFFFF;
+            float: left;
+            margin-top: 0;
+            border: none; }
+            section#tale .tab-pane ul.film-festivals li a.airbnb span {
+              margin-left: 0; }
+            section#tale .tab-pane ul.film-festivals li a.airbnb img {
+              display: block;
+              width: 60%;
+              margin: 20px auto 10px; }
+        @media (max-width: 991px) {
+          section#tale .tab-pane ul.film-festivals li:last-child {
+            width: 100% !important;
+            clear: both;
+            margin-top: 20px; }
+            section#tale .tab-pane ul.film-festivals li:last-child a {
+              width: 100%; }
+              section#tale .tab-pane ul.film-festivals li:last-child a span {
+                float: left;
+                text-align: left;
+                margin-top: 1px; }
+              section#tale .tab-pane ul.film-festivals li:last-child a img {
+                width: 150px;
+                float: right;
+                margin: -2px 0 0 0; } }
+        @media (max-width: 767px) {
+          section#tale .tab-pane ul.film-festivals li:last-child {
+            margin: 50px 0 !important; }
+            section#tale .tab-pane ul.film-festivals li:last-child a span {
+              text-align: center;
+              float: none; }
+            section#tale .tab-pane ul.film-festivals li:last-child a img {
+              float: none;
+              margin: 20px auto 10px; } }
+    section#tale .tab-pane .team-members {
+      margin-bottom: 50px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100%;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; }
+      section#tale .tab-pane .team-members .team-member {
+        font-weight: 500;
+        margin-top: 50px;
+        text-transform: uppercase;
+        width: 25%; }
+        @media (max-width: 767px) {
+          section#tale .tab-pane .team-members .team-member {
+            width: 33.3%; } }
+        @media (max-width: 543px) {
+          section#tale .tab-pane .team-members .team-member {
+            width: 50%; } }
+  section#tale #about,
+  section#tale #why {
+    max-width: 900px; }
+    section#tale #about iframe,
+    section#tale #why iframe {
+      margin-top: 30px; }
+    section#tale #about h5.team-header,
+    section#tale #why h5.team-header {
+      margin-top: 100px; }
+  section#tale .center-text {
+    text-align: center; }
 
 section#register {
   clear: both;
