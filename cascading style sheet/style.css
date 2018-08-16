@@ -7398,7 +7398,7 @@ section#thanks {
   section#thanks div.families h4,
   section#thanks div.mentors h4,
   section#thanks div.friends h4,
-  section#thanks div.in-kind h4 {
+  section#thanks div.aide h4 {
     text-transform: uppercase;
     color: #1a453b;
     border-bottom: 1px solid #1a453b;
@@ -7406,7 +7406,7 @@ section#thanks {
   section#thanks div.families ul,
   section#thanks div.mentors ul,
   section#thanks div.friends ul,
-  section#thanks div.in-kind ul {
+  section#thanks div.aide ul {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -7417,12 +7417,12 @@ section#thanks {
     section#thanks div.families ul li,
     section#thanks div.mentors ul li,
     section#thanks div.friends ul li,
-    section#thanks div.in-kind ul li {
+    section#thanks div.aide ul li {
       margin-bottom: 30px; }
       section#thanks div.families ul li a img,
       section#thanks div.mentors ul li a img,
       section#thanks div.friends ul li a img,
-      section#thanks div.in-kind ul li a img {
+      section#thanks div.aide ul li a img {
         width: 90%;
         max-width: 350px; }
   section#thanks div.families ul li {
@@ -7458,18 +7458,18 @@ section#thanks {
           max-width: 100% !important; } }
     section#thanks div.friends ul li a img {
       max-width: 230px; }
-  section#thanks div.in-kind ul li {
+  section#thanks div.aide ul li {
     width: 20%; }
     @media (max-width: 767px) {
-      section#thanks div.in-kind ul li {
+      section#thanks div.aide ul li {
         width: 50%; } }
     @media (max-width: 543px) {
-      section#thanks div.in-kind ul li {
+      section#thanks div.aide ul li {
         width: 100%; }
-        section#thanks div.in-kind ul li a img {
+        section#thanks div.aide ul li a img {
           width: 100%;
           max-width: 100% !important; } }
-    section#thanks div.in-kind ul li a img {
+    section#thanks div.aide ul li a img {
       max-width: 230px; }
 
 section#tale {
