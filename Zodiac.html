@@ -69,7 +69,7 @@ img.emoji {
 <script type='text/javascript' src='rawgit/namuol/cheet.js/master/cheet.min.js'></script>
 <script type='text/javascript' src='cms/wp-includes/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='cms/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-<script type='text/javascript' src='content/themes/few-press/resources/assets/js/few-press.js'></script>
+<script type='text/javascript' src='javascript/astro-press.js'></script>
 <link rel='https://api.w.org/' href='../wp-json/' />
 <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed" />
 <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed" />
@@ -103,12 +103,12 @@ ajaxurl: '/cms/wp-admin/admin-ajax.php.html',
   </div>
 
   <ul id="menu-the-main-menu" class="nav navbar-nav"><li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a href="https://www.badastral.com">Home</a></li>
-<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="Projections.html">Projections</a></li>
-<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="Spirits.html">Spirits</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.badastral.com/projects">Projections</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://www.badastral.com/spirits">Spirits</a></li>
 <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-44 current_page_item menu-item-44"><a href="Zodiac.html">Zodiac</a></li>
-<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="Thank_You.html">Thank You</a></li>
-<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="Memories.html">Memories</a></li>
-<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="Tale.html">Tale</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://www.badastral.com/thanks">Thank You</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="https://www.badastral.com/memories">Memories</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://www.badastral.com/tale">Tale</a></li>
 <!--<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="Contact.html">Contact</a></li>-->
 </ul>
 </nav>
@@ -116,400 +116,240 @@ ajaxurl: '/cms/wp-admin/admin-ajax.php.html',
 <section id="zodiac">
   <ul id="zodiac-parallax-scene" data-scalar-y="240">
     <li class="layer shape" data-depth="0.04">
-      <!--<img class="shape swiggle-verticle-yellow" src="content/themes/few-press/resources/assets/images/Equations/swiggle-verticle-yellow.png">-->
+      <!--<img class="shape swiggle-verticle-yellow" src="content/themes/astro-press/resources/assets/images/Equations/swiggle-verticle-yellow.png">-->
     </li>
     <li class="layer shape" data-depth="0.12">
-      <!--<img class="shape circle-small-brown" src="content/themes/few-press/resources/assets/images/Equations/circle-small-brown.png">-->
+      <!--<img class="shape circle-small-brown" src="content/themes/astro-press/resources/assets/images/Equations/circle-small-brown.png">-->
     </li>
   </ul>
   <h3>Zodiac</h3>
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#monday" aria-controls="home" role="tab" data-toggle="tab">Monday</a></li>
-    <li role="presentation"><a href="#tuesday" aria-controls="profile" role="tab" data-toggle="tab">Tuesday</a></li>
-    <li role="presentation"><a href="#wednesday" aria-controls="messages" role="tab" data-toggle="tab">Wednesday</a></li>
-    <li role="presentation"><a href="#thursday" aria-controls="settings" role="tab" data-toggle="tab">Thursday</a></li>
-    <li role="presentation"><a href="#friday" aria-controls="settings" role="tab" data-toggle="tab">Friday</a></li>
-    <li role="presentation"><a href="#saturday" aria-controls="settings" role="tab" data-toggle="tab">Saturday</a></li>
-    <li role="presentation"><a href="#saturday" aria-controls="settings" role="tab" data-toggle="tab">Sunday</a></li>
+    <li role="presentation"><a href="#january" aria-controls="settings" role="tab" data-toggle="tab">January</a></li>
+    <li role="presentation"><a href="#february" aria-controls="settings" role="tab" data-toggle="tab">February</a></li>
+    <li role="presentation"><a href="#march" aria-controls="settings" role="tab" data-toggle="tab">March</a></li>
+    <li role="presentation"><a href="#april" aria-controls="settings" role="tab" data-toggle="tab">April</a></li>
+    <li role="presentation"><a href="#may" aria-controls="settings" role="tab" data-toggle="tab">May</a></li>
+    <li role="presentation"><a href="#june" aria-controls="settings" role="tab" data-toggle="tab">June</a></li>
+    <li role="presentation"><a href="#july" aria-controls="settings" role="tab" data-toggle="tab">July</a></li>
+    <li role="presentation" class="active"><a href="#august" aria-controls="home" role="tab" data-toggle="tab">August</a></li>
+    <li role="presentation"><a href="#september" aria-controls="settings" role="tab" data-toggle="tab">September</a></li>
+    <li role="presentation"><a href="#october" aria-controls="settings" role="tab" data-toggle="tab">October</a></li>
+    <li role="presentation"><a href="#november" aria-controls="settings" role="tab" data-toggle="tab">November</a></li>
+    <li role="presentation"><a href="#december" aria-controls="settings" role="tab" data-toggle="tab">December</a></li>
   </ul>
   <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="monday">
+          <div role="tabpanel" class="tab-pane fade in active" id="august">
         <ul>
                   <li>
             <div class="time">
-              <p>4:00</p>
+              <h5>Monday 20</h5>
+              <h5>Friday 24</h5>
+              <h5>Saturday 25</h5>
             </div>
             <div class="image">
-              <img src="./images/Equations/Amperes-Law.png" alt="    insert event              ">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Daria_Logo.svg/317px-Daria_Logo.svg.png" alt="Daria">
             </div>
             <div class="deets">
-              <h4>Introduction</h4>
-              <p>This company will be quick to establish themselves on all sorts of topics, hosted by CTO <a href="https://www.badastral.com/Spirits.html#spirit-0712251401">H.G.</a>, who recently graduated from <a href="http://www.nmu.edu/">Northern Michigan University</a> and CEO <a href="https://www.badastral.com/Spirits.html#spirit-1608011300">David Pham</a>, who graduated from <a href="http://msu.edu/">Michigan State University</a>. She and he will discuss the topic of the work of the upcoming projects in his secret <a href="https://goo.gl/maps/PrJcjMxxC442">food cave</a> and start promptly at 25:00.</p>
-<p>---</p>
-<p><strong>---</strong></p>
-<iframe src="https://www.youtube.com/embed/d4uDUeNUOPo" width="888" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+              <h4>DARIA</h4>
+              <p>This musical features <a href="https://www.badastral.com/spirits#spirit-1303030100">K.M.</a> as Jake Morgendorffer, <a href="https://www.badastral.com/spirits#spirit-0712251402">J.G.</a> as Upchuck, <a href="https://www.badastral.com/spirits#spirit-2018091400">M.T.</a> as Tricycle Girl, and <a href="https://www.badastral.com/spirits#spirit-1608011300">David Pham</a> as Principal Li.</p>
+<p>The performance will be held at the <a href="https://goo.gl/maps/xZqUtiiyTv62">Dog Story Theatre</a>. Showtimes are 19:00 and 21:00 on Monday, 19:00 on Friday and Saturday.</p>
+<p><strong>This musical will be GOD damn something.</strong></p>
+<iframe src="https://www.youtube.com/embed/Yu_Rxqtq3ng" width="320" height="240" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
               </div>
             </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="january">
+        <ul>
                       <li>
               <div class="time">
-                <p>12:00</p>
+                <p>8:00</p>
               </div>
               <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/studentworkshops.png" alt="Student Workshops">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
               </div>
               <div class="deets">
-                <h4>Insert Errand Here</h4>
-                <p>What is badASTRAL? Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One. Zoe Kissel. David Pham. Composing Our Stories. Michigan State University</a>.</p>
-<p><strong>Only accessible to UofA Art Students.</strong></p>
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
               </div>
             </li>
                 </ul>
       </div>
-              <div role="tabpanel" class="tab-pane fade" id="tuesday">
+              <div role="tabpanel" class="tab-pane fade" id="february">
         <ul>
                       <li>
               <div class="time">
-                <p>8:30am</p>
+                <p>8:00</p>
               </div>
               <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/mxfworkshops.png" alt="MxF Workshops">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
               </div>
               <div class="deets">
-                <h4>MxF Workshops</h4>
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="march">
+        <ul>
+                      <li>
+              <div class="time">
+                <p>8:00</p>
+              </div>
+              <div class="image">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
+              </div>
+              <div class="deets">
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="april">
+        <ul>
+                      <li>
+              <div class="time">
+                <p>8:00</p>
+              </div>
+              <div class="image">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
+              </div>
+              <div class="deets">
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="may">
+        <ul>
+                      <li>
+              <div class="time">
+                <p>8:00</p>
+              </div>
+              <div class="image">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
+              </div>
+              <div class="deets">
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="june">
+        <ul>
+                      <li>
+              <div class="time">
+                <p>8:00</p>
+              </div>
+              <div class="image">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
+              </div>
+              <div class="deets">
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="july">
+        <ul>
+                      <li>
+              <div class="time">
+                <p>8:00</p>
+              </div>
+              <div class="image">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Zoe Kissel">
+              </div>
+              <div class="deets">
+                <h4>-----</h4>
+                <p>What is badastral Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="september">
+        <ul>
+                      <li>
+              <div class="time">
+              <h5>TBA</h5>
+              </div>
+              <div class="image">
+                <img src="https://www.thoughtco.com/thmb/-BwV_KRGUKqQrjYz_LjT4BRTmxc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/MontBlancRegion_BuenaVistaImages_Getty1-56a16aee3df78cf7726a89cf.jpg" alt="Introduction">
+              </div>
+            <div class="deets">
+              <h4>Introduction</h4>
+              <p>This company will be quick to establish themselves on all sorts of topics, hosted by CTO <a href="https://www.badastral.com/spirits#spirit-0712251401">H.G.</a>, who recently graduated from <a href="http://www.nmu.edu/">Northern Michigan University</a> and CEO <a href="https://www.badastral.com/spirits#spirit-1608011300">David Pham</a>, who graduated from <a href="http://msu.edu/">Michigan State University</a>.</p>
+<p>She and he will discuss the topic of the work of the upcoming projects in the secret <a href="https://goo.gl/maps/PrJcjMxxC442">food cave</a> and start promptly at 25:00.</p>
+<p><strong>Pour communication!</strong></p>
+<iframe src="https://www.youtube.com/embed/d4uDUeNUOPo" width="320" height="180" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+              </div>
+            </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="october">
+        <ul>
+                      <li>
+              <div class="time">
+                <p>8:00</p>
+              </div>
+              <div class="image">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Sidewatcher">
+              </div>
+              <div class="deets">
+                <h4>-----</h4>
                 <p>What is badASTRAL? Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
               </div>
             </li>
+                  </ul>
+      </div>
+              <div role="tabpanel" class="tab-pane fade" id="november">
+        <ul>
                       <li>
               <div class="time">
-                <p>2pm</p>
+                <p>8:00</p>
               </div>
               <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/studentworkshops.png" alt="Student Workshops">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Sidewatcher">
               </div>
               <div class="deets">
-                <h4>Student Workshops</h4>
-                <p>The student workshops are organized by the <a href="http://art.uark.edu/">University of Arkansas Art Department</a>. They will be held at the <a href="http://crystalbridges.org/">Crystal Bridges Museum of American Art</a>.</p>
-<p><strong>Only accessible to UofA Art Students.</strong></p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>7pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/martini_scheduleillo.png" alt="Opening Reception">
-              </div>
-              <div class="deets">
-                <h4>Opening Reception</h4>
-                <p>The opening reception is going to be a blast! We&#8217;ll have music, booze, food, and activities for MxF attendees to partake in. We&#8217;ll also have full access to the <a href="http://crystalbridges.org/">Crystal Bridges Museum of American Art</a>, where we&#8217;ll be having the festivities. The space is beautiful and MxF attendees are going to love it.</p>
-<p><strong>Only accessible to MxF 2017 ticket holders.</strong></p>
+                <h4>-----</h4>
+                <p>What is badASTRAL? Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
               </div>
             </li>
                   </ul>
       </div>
-              <div role="tabpanel" class="tab-pane fade" id="wednesday">
+              <div role="tabpanel" class="tab-pane fade" id="november">
         <ul>
                       <li>
               <div class="time">
-                <p>8:30am</p>
+                <p>8:00</p>
               </div>
               <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/handmadebyfew.png" alt="Handmade by Few Craft Show - Day 1">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Sidewatcher">
               </div>
               <div class="deets">
-                <h4>Handmade by Few Craft Show - Day 1</h4>
-                <p>The <a href="/handmade-by-few">Handmade by Few</a> craft show will feature amazing crafts from all over the region. We’ve curated the show to include some of the most talented artisans in the area. The  craft show is organized by the good folks over at <a href="https://thelittlecraftshow.com/">The Little Craft Show</a> and runs all day.</p>
-<p><strong>Open to the public!</strong></p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>8:30am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/donut_scheduleillo.png" alt="Registration, Breakfast & Coffee">
-              </div>
-              <div class="deets">
-                <h4>Registration, Breakfast & Coffee</h4>
-                <p>We know that breakfast and good coffee is a very important part of the day. That’s why we’re going to have <a href="http://www.onyxcoffeelab.com/">Onxy Coffee Labs</a> on hand doing pour over coffee for all the badastral attendees. Their coffee is killer. We&#8217;ll have some awesome pastries, as well.</p>
-<p>Be sure to get to registration early to pick up some sweet <a href="https://www.stickermule.com/">StickerMule</a> stickers, buttons, and other nifty items!</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>9:30am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/hello_scheduleillo.png" alt="Welcome">
-              </div>
-              <div class="deets">
-                <h4>Welcome</h4>
-                <p>Conference kick-off and stuff.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>10am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/beckysimpson_mxf_portrait-2.png" alt="Talk - Becky Simpson">
-              </div>
-              <div class="deets">
-                <h4>Talk - Becky Simpson</h4>
-                <p><strong>&#8220;Finishing Strong&#8221;</strong></p>
-<p>We live in a world of information overload. We’re constantly forced to curate our lives, because we know that if we don’t, someone else will. Those of us who have found our home in creative industries are also learning how to hone our skills, manage our time and coddle the vision that got us here in the first place. So with all of these distractions and opportunities, how do we force ourselves to stay focused and just get the work done?</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>11am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/break.png" alt="10-Minute Break">
-              </div>
-              <div class="deets">
-                <h4>10-Minute Break</h4>
-                <p>Time to pee and grab more coffee.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>11:15am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/ajleon_mxf_portrait.png" alt="Talk - AJ Leon">
-              </div>
-              <div class="deets">
-                <h4>Talk - AJ Leon</h4>
-                <p>Talk description coming soon!</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>12:15pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/sandwich_scheduleillo.png" alt="Lunch & Activities">
-              </div>
-              <div class="deets">
-                <h4>Lunch & Activities</h4>
-                <p>You know&#8230; food and stuff.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>2pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/jamesvictore_mxf_portrait.png" alt="Talk - James Victore">
-              </div>
-              <div class="deets">
-                <h4>Talk - James Victore</h4>
-                <p>Talk description coming soon!</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>3pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/break.png" alt="10-Minute Break">
-              </div>
-              <div class="deets">
-                <h4>10-Minute Break</h4>
-                <p>Time to pee and grab more coffee.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>3:15pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/mikemonteiro_mxf_portrait.png" alt="Talk - Mike Monteiro">
-              </div>
-              <div class="deets">
-                <h4>Talk - Mike Monteiro</h4>
-                <p><strong>&#8220;Let Us Now Praise Ordinary People&#8221;</strong><br />
-Everywhere you turn, companies are promising to change the world. But when the people already on top promise to change the world, you have to wonder how and for whom. The how isn&#8217;t usually in your benefit, and the for whom isn&#8217;t usually for you. The world is working exactly as they&#8217;ve designed it to work. So if we really want to change it, we need to change not just how we design it, but who is designing it.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>7pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/trophy_scheduleillo.png" alt="Designed by Few">
-              </div>
-              <div class="deets">
-                <h4>Designed by Few</h4>
-                <p>The <a href="http://www.designedbyfew.com">Designed by Few</a> design competition is going to be awesome this year! There will be 3 killer designers competing for a cash prize and bragging rights &#8211; each wanting to be crowned DxF 2017 victor! All the designs go to benefit a local non-profit. This year we&#8217;re featuring <a href="http://artfeeds.org/">ArtFeeds</a>, a non-profit that focuses on feeding creative development and facilitating emotional expression through art and community. We’re also going to have music, food, booze, a Photo Booth, and a halloween costume contest all held at the beautiful <a href="http://www.21cmuseumhotels.com/bentonville/">21c Museum Hotel</a>. It’s going to be a blast!</p>
-<p><strong>Only accessible to MxF 2017 ticket holders.</strong></p>
+                <h4>-----</h4>
+                <p>What is badASTRAL? Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
               </div>
             </li>
                   </ul>
       </div>
-              <div role="tabpanel" class="tab-pane fade" id="thursday">
+              <div role="tabpanel" class="tab-pane fade" id="december">
         <ul>
                       <li>
               <div class="time">
-                <p>9am</p>
+                <p>8:00</p>
               </div>
               <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/handmadebyfew.png" alt="Handmade by Few Craft Show - Day 2">
+                <img src="https://i.ytimg.com/vi/0Nn-ou8Uk8E/maxresdefault.jpg" alt="Sidewatcher">
               </div>
               <div class="deets">
-                <h4>Handmade by Few Craft Show - Day 2</h4>
-                <p>The <a href="/handmade-by-few">Handmade by Few</a> craft show will feature amazing crafts from all over the region. We’ve curated the show to include some of the most talented artisans in the area. The  craft show is organized by the good folks over at <a href="https://thelittlecraftshow.com/">The Little Craft Show</a> and runs all day.</p>
-<p><strong>Open to the public!</strong></p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>9am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/donut_scheduleillo.png" alt="Breakfast & Coffee">
-              </div>
-              <div class="deets">
-                <h4>Breakfast & Coffee</h4>
-                <p>We know that breakfast and good coffee is a very important part of the day. That’s why we’re going to have <a href="http://www.onyxcoffeelab.com/">Onxy Coffee Labs</a> on hand doing pour over coffee for all the badastral attendees. Their coffee is killer. We&#8217;ll have some awesome pastries, as well.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>9:45am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/hello_scheduleillo.png" alt="Welcome">
-              </div>
-              <div class="deets">
-                <h4>Welcome</h4>
-                <p>Second day kick-off talk.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>10am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/alexcornell_mxf_portrait.png" alt="Talk - Alex Cornell">
-              </div>
-              <div class="deets">
-                <h4>Talk - Alex Cornell</h4>
-                <p>Talk description coming soon!</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>11am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/break.png" alt="10-Minute Break">
-              </div>
-              <div class="deets">
-                <h4>10-Minute Break</h4>
-                <p>Pee pee and coffee time.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>11:15am</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/cassiemcdaniel_mxf_portrait.png" alt="Talk - Cassie McDaniel">
-              </div>
-              <div class="deets">
-                <h4>Talk - Cassie McDaniel</h4>
-                <p><strong>&#8220;The Small Town Complex&#8221;</strong><br />
-As uncannily predicted by Arthur C. Clarke in 1974, today’s abundance of personal computers means us highfalutin designers can live and work wherever we please, including the middle of nowhere. But how many people actually sacrifice city lights for northern lights? Public transportation for personal transformation? This talk is a story about doing just that, about moving homes from a city of six million to a town of ten thousand. It&#8217;s about taking risks with real consequences, building something out of nothing, and getting a town to embrace a design culture that’s bigger than its own britches.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>12:15pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/sandwich_scheduleillo.png" alt="Lunch & Activities">
-              </div>
-              <div class="deets">
-                <h4>Lunch & Activities</h4>
-                <p>Delicious local food ftw!</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>2pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/amynicoleschwartz_mxf_portrait.png" alt="Talk - Amy Nicole Schwartz">
-              </div>
-              <div class="deets">
-                <h4>Talk - Amy Nicole Schwartz</h4>
-                <p><strong>&#8220;Delete Your LinkedIn and Start Making Friends&#8221;</strong><br />
-This design thing? It’s all about people. I’ll share some short stories about human relationships and how they’ve made my career and personal life so dang great.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>3pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/break.png" alt="10-Minute Break">
-              </div>
-              <div class="deets">
-                <h4>10-Minute Break</h4>
-                <p>Pee pee time.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>3:15pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/victoriapater_mxf_portrait.png" alt="Talk - Victoria Pater">
-              </div>
-              <div class="deets">
-                <h4>Talk - Victoria Pater</h4>
-                <p><strong>&#8220;Side Hustle Happiness&#8221;</strong><br />
-Victoria will talk about balancing a fulfilling side project without losing her mind or her day job. Bonus: her side project makes her a better designer on the Braintree / PayPal Commerce team.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>4:15pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/break.png" alt="10-Minute Break">
-              </div>
-              <div class="deets">
-                <h4>10-Minute Break</h4>
-                <p>Pee pee time.</p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>4:30pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Portraits/danielburka_mxf_portrait.png" alt="Talk - Daniel Burka">
-              </div>
-              <div class="deets">
-                <h4>Talk - Daniel Burka</h4>
-                <p><strong>&#8220;Should design even have a seat at the table?&#8221;</strong><br />
-Design has been clamoring for a seat at the table for ages. And, all of the sudden it&#8217;s happening. Designers at startups and big companies alike are increasingly being brought into leadership discussions. In my job at GV, I see designers across a broad range of companies and I&#8217;m very worried that many designers are squandering their leadership opportunity. Let&#8217;s talk about how design is perceived by leaders and where design can truly help shape more beautiful companies. </p>
-              </div>
-            </li>
-                      <li>
-              <div class="time">
-                <p>7pm</p>
-              </div>
-              <div class="image">
-                <img src="content/uploads/2017/Miscellaneous/beercup_scheduleillo.png" alt="MxF After-party">
-              </div>
-              <div class="deets">
-                <h4>MxF After-party</h4>
-                <p>The badastral After-Party is going to be a killer time. We always go all out for the last festivity. We’re going to be renting bouncy houses, there will be live music, we’ll have booze and food… it’s going to be wild. We’ll be having it at The Record building.</p>
-<p><strong>Only accessible to MxF 2017 ticket holders.</strong></p>
+                <h4>-----</h4>
+                <p>What is badASTRAL? Zoe Kissel is a filmmaker, artist, and musician specializing in post-production editing, graphic design, and film photography. Zoë Kissel is an East Lansing-based Filmmaker, Artist, and Musician. David Pham Zoë Kissel now lives in East Lansing, Michigan where she attends Michigan State University ... sci-fi short film, as well as writing the screenplay for the upcoming film Venus 1. In the Broken Jaw Studio #BrokenJawPropShop: Prop building for the upcoming film #Venus1. Juice. Filmmaker | Artist | Musician | Writer | MSU '18 | Sidewatcher and The Painted Dogs ... I will begin writing about the production of my next film "Venus 1" within the Venus 1. Venus One.</strong></p>
               </div>
             </li>
                   </ul>
@@ -549,10 +389,10 @@ Design has been clamoring for a seat at the table for ages. And, all of the sudd
   <section id="newsletter">
     <ul id="newsletter-parallax-scene" data-scalar-y="240">
         <li class="layer shape" data-depth="0.10">
-            <img class="shape swiggle-angle-left-green" src="content/themes/few-press/resources/assets/images/Equations/swiggle-angle-left-green.png">
+            <!--<img class="shape swiggle-angle-left-green" src="content/themes/astro-press/resources/assets/images/Equations/swiggle-angle-left-green.png">-->
         </li>
         <li class="layer shape" data-depth="0.06">
-            <!--<img class="shape circle-small-red" src="content/themes/few-press/resources/assets/images/Equations/circle-small-red.png">-->
+            <!--<img class="shape circle-small-red" src="content/themes/astro-press/resources/assets/images/Equations/circle-small-red.png">-->
         </li>
     </ul>
     <h4>Sign Up for Astronomy & Physics</h4>
