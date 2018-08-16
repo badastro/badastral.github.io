@@ -6661,7 +6661,7 @@ section#memories-home {
     min-height: 700px;
     width: 100%;
     display: block;
-    background: 009BFF url("../Memories/Carousel/Current/Carousel-1.jpg") center center no-repeat;
+    background: 009BFF url("../memories/Carousel/Current/Carousel-1.jpg") center center no-repeat;
     background-size: cover; }
   section#memories-home a {
     letter-spacing: 2px;
@@ -7731,7 +7731,7 @@ section#marketplace {
 #carousel-pagination .dot {
 	display: block;
 	text-indent: -999em;
-	background: url(../Memories/Carousel/dots.png) center top no-repeat;
+	background: url(../memories/Carousel/dots.png) center top no-repeat;
 	width: 20px;
 	height: 20px;
 	background-size: 20px 60px;
@@ -7768,27 +7768,27 @@ section#marketplace {
 }
 
 #slide-1 {
-	background-image: url(../Memories/Carousel/Current/Carousel-1.jpg);
+	background-image: url(../memories/Carousel/Current/Carousel-1.jpg);
 	background-position: center;
 }
 
 #slide-2 {
-	background-image: url(../Memories/Carousel/Current/Carousel-2.jpg);
+	background-image: url(../memories/Carousel/Current/Carousel-2.jpg);
 	background-position: center top;
 }
 
 #slide-3 {
-	background-image: url(../Memories/Carousel/Current/Carousel-3.jpg);
+	background-image: url(../memories/Carousel/Current/Carousel-3.jpg);
 	background-position: center bottom;
 }
 
 #slide-4 {
-	background-image: url(../Memories/Carousel/Current/Carousel-4.jpg);
+	background-image: url(../memories/Carousel/Current/Carousel-4.jpg);
 	background-position: center top;
 }
 
 #slide-5 {
-	background-image: url(../Memories/Carousel/Current/Carousel-5.jpg);
+	background-image: url(../memories/Carousel/Current/Carousel-5.jpg);
 	background-position: center;
 }
 
@@ -8220,19 +8220,19 @@ section#error {
 	}
 
 	#slide-1 {
-		background-image: url(../Memories/Carousel/Current/Carousel-1.jpg);
+		background-image: url(../memories/Carousel/Current/Carousel-1.jpg);
 	}
 	#slide-2 {
-		background-image: url(../Memories/Carousel/Current/Carousel-2.jpg);
+		background-image: url(../memories/Carousel/Current/Carousel-2.jpg);
 	}
 	#slide-3 {
-		background-image: url(../Memories/Carousel/Current/Carousel-3.jpg);
+		background-image: url(../memories/Carousel/Current/Carousel-3.jpg);
 	}
 	#slide-4 {
-		background-image: url(../Memories/Carousel/Current/Carousel-4.jpg);
+		background-image: url(../memories/Carousel/Current/Carousel-4.jpg);
 	}
 	#slide-5 {
-		background-image: url(../Memories/Carousel/Current/Carousel-5.jpg);
+		background-image: url(../memories/Carousel/Current/Carousel-5.jpg);
 	}
 }
 
@@ -8496,7 +8496,7 @@ section#error {
 		height: 320px;
 	}
 	#slide-2 {
-		background-image: url(../Memories/Carousel/Current/Carousel-2.jpg);
+		background-image: url(../memories/Carousel/Current/Carousel-2.jpg);
 	}
 }
 
