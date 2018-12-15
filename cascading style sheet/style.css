@@ -5297,7 +5297,7 @@ body {
   color: #EE2026;
   font-weight: 400; }
   body.bsod {
-    background: #0615A9 url("../error/windows.gif");
+    background: #0615A9 url("https://www.badastral.com/error/windows.gif");
     background-repeat: none;
     background-size: 70%;
     background-position: center; }
@@ -5618,7 +5618,7 @@ nav.main-nav.headroom--not-top {
   z-index: 9999; }
 
 nav.sub-nav {
-  background: #FFFFFF url("../images/Header/header-Spamalot.png");
+  background: #FFFFFF url("https://www.badastral.com/images/header/header-Spamalot.png");
   background-position-y: 100%;
   padding-top: 1em;
   position: fixed;
@@ -5778,7 +5778,7 @@ section#newsletter {
         box-shadow: 0px 0px 0px 0px #009bff; }
 
 footer {
-  background: url("../images/Footer/footer_Coffeeholics.png") bottom right no-repeat;
+  background: url("https://www.badastral.com/images/footer/coffeeholics.png") bottom right no-repeat;
   background-size: 40%;
   padding: 0 0 50px 50px; }
   @media (max-width: 767px) {
@@ -6479,7 +6479,7 @@ section#quote {
       font-size: 40px;
       width: 100%;
       padding: 50px;
-      background: #FFFFFF url("../images/Quotes/Ruth.gif");
+      background: #FFFFFF url("https://www.badastral.com/images/quotes/ruth.gif");
       background-position: 90% 85%;
       background-size: 200px;
       background-repeat: no-repeat; }
@@ -6662,7 +6662,7 @@ section#stays-home {
     min-height: 700px;
     width: 100%;
     display: block;
-    background: #FFFFFF url("../memories/Stays In This Universe.gif") center center no-repeat;
+    background: #FFFFFF url("https://www.badastral.com/memories/universe.gif") center center no-repeat;
     background-size: cover; }
   section#stays-home a {
     letter-spacing: 2px;
