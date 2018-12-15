@@ -4,61 +4,61 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url(../cascading style sheet/animate.min.css);
+@import url(https://www.badastral.com/cascading style sheet/animate.min.css);
 
 @font-face {
     font-family: 'proxima_nova_cn_rgregular';
-    src: url('../fonts/proximanovacond-regular-webfont.eot');
-    src: url('../fonts/proximanovacond-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proximanovacond-regular-webfont.woff2') format('woff2'),
-         url('../fonts/proximanovacond-regular-webfont.woff') format('woff'),
-         url('../fonts/proximanovacond-regular-webfont.ttf') format('truetype'),
-         url('../fonts/proximanovacond-regular-webfont.svg#proxima_nova_cn_rgregular') format('svg');
+    src: url('https://www.badastral.com/fonts/proximanovacond-regular-webfont.eot');
+    src: url('https://www.badastral.com/fonts/proximanovacond-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.badastral.com/fonts/proximanovacond-regular-webfont.woff2') format('woff2'),
+         url('https://www.badastral.com/fonts/proximanovacond-regular-webfont.woff') format('woff'),
+         url('https://www.badastral.com/fonts/proximanovacond-regular-webfont.ttf') format('truetype'),
+         url('https://www.badastral.com/fonts/proximanovacond-regular-webfont.svg#proxima_nova_cn_rgregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'proxima_nova_cn_rgbold';
-    src: url('../fonts/proximanovacond-bold-webfont.eot');
-    src: url('../fonts/proximanovacond-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proximanovacond-bold-webfont.woff2') format('woff2'),
-         url('../fonts/proximanovacond-bold-webfont.woff') format('woff'),
-         url('../fonts/proximanovacond-bold-webfont.ttf') format('truetype'),
-         url('../fonts/proximanovacond-bold-webfont.svg#proxima_nova_cn_rgbold') format('svg');
+    src: url('https://www.badastral.com/fonts/proximanovacond-bold-webfont.eot');
+    src: url('https://www.badastral.com/fonts/proximanovacond-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www.badastral.com/fonts/proximanovacond-bold-webfont.woff2') format('woff2'),
+         url('https://www.badastral.com/fonts/proximanovacond-bold-webfont.woff') format('woff'),
+         url('https://www.badastral.com/fonts/proximanovacond-bold-webfont.ttf') format('truetype'),
+         url('https://www.badastral.com/fonts/proximanovacond-bold-webfont.svg#proxima_nova_cn_rgbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'AGaramondPro-BoldItalic';
-  src: url('../fonts/AGaramondPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
-  	   url('../fonts/AGaramondPro-BoldItalic.otf') format('opentype'),
-	   url('../fonts/AGaramondPro-BoldItalic.woff') format('woff'),
-	   url('../fonts/AGaramondPro-BoldItalic.ttf') format('truetype'),
-	   url('../fonts/AGaramondPro-BoldItalic.svg#AGaramondPro-BoldItalic') format('svg');
+  src: url('https://www.badastral.com/fonts/AGaramondPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  	   url('https://www.badastral.com/fonts/AGaramondPro-BoldItalic.otf') format('opentype'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-BoldItalic.woff') format('woff'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-BoldItalic.ttf') format('truetype'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-BoldItalic.svg#AGaramondPro-BoldItalic') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AGaramondPro-Italic';
-  src: url('../fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
-  	   url('../fonts/AGaramondPro-Italic.otf') format('opentype'),
-	   url('../fonts/AGaramondPro-Italic.woff') format('woff'),
-	   url('../fonts/AGaramondPro-Italic.ttf') format('truetype'),
-	   url('../fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
+  src: url('https://www.badastral.com/fonts/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
+  	   url('https://www.badastral.com/fonts/AGaramondPro-Italic.otf') format('opentype'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-Italic.woff') format('woff'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-Italic.ttf') format('truetype'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-Italic.svg#AGaramondPro-Italic') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'AGaramondPro-Regular';
-  src: url('../fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype'),
-  	   url('../fonts/AGaramondPro-Regular.otf') format('opentype'),
-	   url('../fonts/AGaramondPro-Regular.woff') format('woff'),
-	   url('../fonts/AGaramondPro-Regular.ttf') format('truetype'),
-	   url('../fonts/AGaramondPro-Regular.svg#AGaramondPro-Regular') format('svg');
+  src: url('https://www.badastral.com/fonts/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype'),
+  	   url('https://www.badastral.com/fonts/AGaramondPro-Regular.otf') format('opentype'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-Regular.woff') format('woff'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-Regular.ttf') format('truetype'),
+	   url('https://www.badastral.com/fonts/AGaramondPro-Regular.svg#AGaramondPro-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -5289,7 +5289,7 @@ body {
   height: 100%; }
 
 body {
-  background: #FFFFFF url("../images/Background/background - space.jpg");
+  background: #FFFFFF url("https://www.badastral.com/images/background/background-space.jpg");
   background-repeat: repeat;
   background-size: 90%;
   font-family: 'AGaramondPro-Regular';
@@ -5297,7 +5297,7 @@ body {
   color: #EE2026;
   font-weight: 400; }
   body.bsod {
-    background: #0615A9 url("../error/windows.gif");
+    background: #0615A9 url("https://www.badastral.com/error/windows.gif");
     background-repeat: none;
     background-size: 70%;
     background-position: center; }
@@ -5524,7 +5524,7 @@ html.remodal-is-locked {
       margin-top: -0.2rem; }
 
 .main-nav.animated.headroom--not-top {
-  background: #FFFFFF url("../images/Header/header-Spamalot.png");
+  background: #FFFFFF url("https://www.badastral.com/images/header/header-Spamalot.png");
   background-position-y: 100%;
   padding-top: 1em; }
   @media (max-width: 991px) {
@@ -5549,7 +5549,7 @@ nav.main-nav ul {
       -ms-flex-direction: column;
       flex-direction: column;
       position: fixed;
-      background: #1a453b url("../images/Background/mobile-nav-bg.gif") !important;
+      background: #1a453b url("https://www.badastral.com/images/background/menu-mobile.gif") !important;
       background-repeat: repeat;
       background-size: 100%;
       top: 0;
@@ -5581,7 +5581,7 @@ nav.main-nav ul {
         color: #FFFFFF;
         border-color: #FFFFFF;
         letter-spacing: 2px;
-        background: #FFFFFF url("../images/Background/Hovered_Menu.jpg");
+        background: #FFFFFF url("https://www.badastral.com/images/background/menu-hovered.jpg");
         background-repeat: repeat;
         background-size: 30%; }
         @media (max-width: 991px) {
@@ -5602,7 +5602,7 @@ nav.main-nav ul {
       letter-spacing: 2px;
       border-top: 1px solid #FFFFFF;
       border-bottom: 1px solid #FFFFFF;
-      background: #FFFFFF url("../images/Background/Selected_Menu.jpg");
+      background: #FFFFFF url("https://www.badastral.com/images/background/menu-selected.jpg");
       background-repeat: repeat;
       background-size: 30%; }
       @media (max-width: 991px) {
@@ -5618,7 +5618,7 @@ nav.main-nav.headroom--not-top {
   z-index: 9999; }
 
 nav.sub-nav {
-  background: #FFFFFF url("../images/Header/header-Spamalot.png");
+  background: #FFFFFF url("https://www.badastral.com/images/header/header-Spamalot.png");
   background-position-y: 100%;
   padding-top: 1em;
   position: fixed;
@@ -5650,7 +5650,7 @@ nav.sub-nav {
         -ms-flex-direction: column;
         flex-direction: column;
         position: fixed;
-        background: #1a453b url("../images/Background/mobile-nav-bg.gif") !important;
+        background: #1a453b url("https://www.badastral.com/images/background/menu-mobile.gif") !important;
         background-repeat: repeat;
         background-size: 100%;
         top: 0;
@@ -5683,7 +5683,7 @@ nav.sub-nav {
           color: #FFFFFF;
           border-color: #FFFFFF;
           letter-spacing: 2px;
-          background: #FFFFFF url("../images/Background/Hovered_Menu.jpg");
+          background: #FFFFFF url("https://www.badastral.com/images/background/menu-hovered.jpg");
           background-repeat: repeat;
           background-size: 30%; }
           @media (max-width: 991px) {
@@ -5706,7 +5706,7 @@ nav.sub-nav {
         border-top: 1px solid #1a453b;
         border-left: 1px solid #1a453b;
         border-bottom: 1px solid #1a453b;
-        background: #FFFFFF url("../images/Background/Selected_Menu.jpg");
+        background: #FFFFFF url("https://www.badastral.com/images/background/menu-selected.jpg");
         background-repeat: repeat;
         background-size: 30%; }
         @media (max-width: 991px) {
@@ -5778,7 +5778,7 @@ section#newsletter {
         box-shadow: 0px 0px 0px 0px #009bff; }
 
 footer {
-  background: url("../images/Footer/footer_Coffeeholics.png") bottom right no-repeat;
+  background: url("https://www.badastral.com/images/footer/coffeeholics.png") bottom right no-repeat;
   background-size: 40%;
   padding: 0 0 50px 50px; }
   @media (max-width: 767px) {
@@ -6376,7 +6376,7 @@ section#intro {
   section#intro .description {
     padding: 50px;
     color: #ED2027;
-    background: #ED2027 url("../images/Background/description_background.jpg");
+    background: #ED2027 url("https://www.badastral.com/images/background/description.jpg");
     background-repeat: repeat;
     background-size: 15%;
     position: relative; }
@@ -6476,7 +6476,7 @@ section#quote {
       font-size: 40px;
       width: 100%;
       padding: 50px;
-      background: #FFFFFF url("../images/Quotes/Ruth.gif");
+      background: #FFFFFF url("https://www.badastral.com/images/quotes/ruth.gif");
       background-position: 90% 85%;
       background-size: 200px;
       background-repeat: no-repeat; }
@@ -6659,7 +6659,7 @@ section#stays-home {
     min-height: 700px;
     width: 100%;
     display: block;
-    background: #FFFFFF url("../Memories/2013-11-17/Spamalot.jpg") center center no-repeat;
+    background: #FFFFFF url("https://www.badastral.com/memories/2013/2013-11-17/Spamalot.jpg") center center no-repeat;
     background-size: cover; }
   section#stays-home a {
     letter-spacing: 2px;
@@ -7729,7 +7729,7 @@ section#marketplace {
 #carousel-pagination .dot {
 	display: block;
 	text-indent: -999em;
-	background: url(../img/carousel/dots.png) center top no-repeat;
+	background: url(https://www.badastral.com/memories/carousel/dots.png) center top no-repeat;
 	width: 20px;
 	height: 20px;
 	background-size: 20px 60px;
@@ -7766,27 +7766,27 @@ section#marketplace {
 }
 
 #slide-10yr {
-	background-image: url(../img/carousel/10-yr-bg.jpg);
+	background-image: url(https://www.badastral.com/memories/carousel/current/carousel-1.jpg);
 	background-position: center;
 }
 
 #slide-kubo {
-	background-image: url(../img/carousel/kubo-bg.jpg);
+	background-image: url(https://www.badastral.com/memories/carousel/current/carousel-2.jpg);
 	background-position: center bottom;
 }
 
 #slide-boxtrolls {
-	background-image: url(../img/carousel/boxtrolls-bg.jpg);
+	background-image: url(https://www.badastral.com/memories/carousel/current/carousel-3.jpg);
 	background-position: center top;
 }
 
 #slide-paranorman {
-	background-image: url(../img/carousel/paranorman-bg.jpg);
+	background-image: url(https://www.badastral.com/memories/carousel/current/carousel-4.jpg);
 	background-position: center top;
 }
 
 #slide-coraline {
-	background-image: url(../img/carousel/coraline-bg.jpg);
+	background-image: url(https://www.badastral.com/memories/carousel/current/carousel-5.jpg);
 	background-position: center top;
 }
 
@@ -8218,20 +8218,20 @@ section#error {
 	}
 
 	#slide-10yr {
-		background-image: url(../img/carousel/10-yr-bg-short.jpg);
+		background-image: url(https://www.badastral.com/memories/carousel/current/carousel-1.jpg);
 	}
 	#slide-kubo {
-		background-image: url(../img/carousel/kubo-bg-short.jpg);
+		background-image: url(https://www.badastral.com/memories/carousel/current/carousel-2.jpg);
 		background-position: center top;
 	}
 	#slide-boxtrolls {
-		background-image: url(../img/carousel/boxtrolls-bg-short.jpg);
+		background-image: url(https://www.badastral.com/memories/carousel/current/carousel-3.jpg);
 	}
 	#slide-paranorman {
-		background-image: url(../img/carousel/paranorman-bg-short.jpg);
+		background-image: url(https://www.badastral.com/memories/carousel/current/carousel-4.jpg);
 	}
 	#slide-coraline {
-		background-image: url(../img/carousel/coraline-bg-short.jpg);
+		background-image: url(https://www.badastral.com/memories/carousel/current/carousel-5.jpg);
 	}
 }
 
@@ -8495,7 +8495,7 @@ section#error {
 		height: 320px;
 	}
 	#slide-kubo {
-		background-image: url(../img/carousel/kubo-bg-short.jpg);
+		background-image: url(https://www.badastral.com/memories/carousel/current/carousel-1.jpg);
 	}
 }
 
