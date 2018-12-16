@@ -5861,11 +5861,11 @@ ul#fakes-parallax-scene li.layer {
 section#intro .description ul#intro-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#intro .description ul#intro-parallax-scene li.layer img.Coulombs-Law {
+  section#intro .description ul#intro-parallax-scene li.layer img.coulombs-law {
     width: 100px;
     left: 70%;
     top: -78px; }
-  section#intro .description ul#intro-parallax-scene li.layer img.Electric-Field-def {
+  section#intro .description ul#intro-parallax-scene li.layer img.electric-field-def {
     width: 50px;
     left: 50%;
     bottom: -350px; }
@@ -5873,7 +5873,7 @@ section#intro .description ul#intro-parallax-scene {
 section#intro .early-bird ul#early-bird-scene {
   position: absolute;
   width: 100%; }
-  section#intro .early-bird ul#early-bird-scene li.layer img.Electric-Potential-def {
+  section#intro .early-bird ul#early-bird-scene li.layer img.electric-potential-def {
     width: 100px;
     left: 34%;
     bottom: -267px; }
@@ -5881,25 +5881,25 @@ section#intro .early-bird ul#early-bird-scene {
 section#quote ul#quote-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#quote ul#quote-parallax-scene li.layer img.Field-and-Potential {
+  section#quote ul#quote-parallax-scene li.layer img.field-and-potential {
     width: 30px;
     top: 300px;
     left: 1150px; }
-  section#quote ul#quote-parallax-scene li.layer img.Electric-Field {
+  section#quote ul#quote-parallax-scene li.layer img.electric-field {
     width: 52px;
     left: 15%;
     top: 300px;
     z-index: -9999; }
-  section#quote ul#quote-parallax-scene li.layer img.Electric-Potential {
+  section#quote ul#quote-parallax-scene li.layer img.electric-potential {
     width: 120px;
     left: -80px;
     top: 910px;
     z-index: -9999; }
-  section#quote ul#quote-parallax-scene li.layer img.Capacitance {
+  section#quote ul#quote-parallax-scene li.layer img.capacitance {
     width: 30px;
     top: -50px;
     left: -50px; }
-  section#quote ul#quote-parallax-scene li.layer img.Electric-Current {
+  section#quote ul#quote-parallax-scene li.layer img.electric-current {
     width: 100px;
     left: 60%;
     top: -40px;
@@ -5908,26 +5908,26 @@ section#quote ul#quote-parallax-scene {
 section#spirits-home ul#spirits-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#spirits-home ul#spirits-parallax-scene li.layer img.Heat {
+  section#spirits-home ul#spirits-parallax-scene li.layer img.heat {
     width: 15px;
     top: 620px;
     left: 65%; }
-  section#spirits-home ul#spirits-parallax-scene li.layer img.Electric-Resistance {
+  section#spirits-home ul#spirits-parallax-scene li.layer img.electric-resistance {
     width: 60px;
     left: -54px;
     top: -320px;
     z-index: -9999; }
-  section#spirits-home ul#spirits-parallax-scene li.layer img.Ideal-Gas-Law {
+  section#spirits-home ul#spirits-parallax-scene li.layer img.ideal-gas-law {
     width: 40px;
     left: 90%;
     bottom: 16%;
     z-index: -9999; }
-  section#spirits-home ul#spirits-parallax-scene li.layer img.Stefan-Boltzman-Law {
+  section#spirits-home ul#spirits-parallax-scene li.layer img.stefan-boltzman-law {
     width: 120px;
     top: -191px;
     left: 80%;
     z-index: -9999; }
-  section#spirits-home ul#spirits-parallax-scene li.layer img.Wien-Displacement-Law {
+  section#spirits-home ul#spirits-parallax-scene li.layer img.wien-displacement-law {
     width: 30px;
     top: -230px;
     left: 37%; }
@@ -5935,19 +5935,19 @@ section#spirits-home ul#spirits-parallax-scene {
 section#stays-home ul#stays-home-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#stays-home ul#stays-home-parallax-scene li.layer img.Magnetic-Flux {
+  section#stays-home ul#stays-home-parallax-scene li.layer img.magnetic-flux {
     width: 100px;
     left: 10%;
     top: 40px; }
-  section#stays-home ul#stays-home-parallax-scene li.layer img.Gauss-Law {
+  section#stays-home ul#stays-home-parallax-scene li.layer img.gauss-law {
     width: 90px;
     left: 91%;
     top: -70px; }
-  section#stays-home ul#stays-home-parallax-scene li.layer img.Faradays-Law {
+  section#stays-home ul#stays-home-parallax-scene li.layer img.faradays-law {
     width: 40px;
     bottom: 0;
     left: 80%; }
-  section#stays-home ul#stays-home-parallax-scene li.layer img.Amperes-Law {
+  section#stays-home ul#stays-home-parallax-scene li.layer img.amperes-law {
     width: 20px;
     left: 80%;
     top: 740px;
@@ -5956,11 +5956,11 @@ section#stays-home ul#stays-home-parallax-scene {
 section#thanks-home ul#thanks-home-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#thanks-home ul#thanks-home-parallax-scene li.layer img.Photon-Momentum {
+  section#thanks-home ul#thanks-home-parallax-scene li.layer img.photon-momentum {
     width: 25px;
     left: 10%;
     top: -100px; }
-  section#thanks-home ul#thanks-home-parallax-scene li.layer img.Mass-Energy {
+  section#thanks-home ul#thanks-home-parallax-scene li.layer img.mass-energy {
     width: 100px;
     left: 91%;
     top: 100px; }
@@ -5968,7 +5968,7 @@ section#thanks-home ul#thanks-home-parallax-scene {
 section#spirits ul#spirits-detail-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#spirits ul#spirits-detail-parallax-scene li.layer img.Photon-Momentum {
+  section#spirits ul#spirits-detail-parallax-scene li.layer img.photon-momentum {
     width: 110px;
     left: 89%; }
   section#spirits ul#spirits-detail-parallax-scene li.layer img.Intensity {
@@ -6005,7 +6005,7 @@ section#projections ul#projections-parallax-scene {
 section#thanks ul#thanks-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#thanks ul#thanks-parallax-scene li.layer img.Electric-Potential {
+  section#thanks ul#thanks-parallax-scene li.layer img.electric-potential {
     width: 110px;
     left: 92%;
     top: 220px;
@@ -6036,7 +6036,7 @@ section#register ul#marketplace-parallax-scene {
     left: 30%;
     top: 0;
     z-index: -9999; }
-  section#register ul#marketplace-parallax-scene li.layer img.Mass-Energy {
+  section#register ul#marketplace-parallax-scene li.layer img.mass-energy {
     width: 110px;
     left: 80%;
     top: 143px;
@@ -6048,7 +6048,7 @@ section#newsletter ul#newsletter-parallax-scene {
   section#newsletter ul#newsletter-parallax-scene li.layer img.schroedingers-equation {
     width: 100px;
     left: -63px; }
-  section#newsletter ul#newsletter-parallax-scene li.layer img.Uncertainty-Principle {
+  section#newsletter ul#newsletter-parallax-scene li.layer img.uncertainty-principle {
     width: 40px;
     left: 87%;
     top: 60px; }
