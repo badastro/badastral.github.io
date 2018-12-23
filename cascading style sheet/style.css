@@ -74,7 +74,7 @@ body {
 
 article,
 aside,
-projections,
+projects,
 figcaption,
 figure,
 footer,
@@ -5477,6 +5477,52 @@ html.remodal-is-locked {
       color: #ED2027;
       text-shadow: -1px 1px 0px #ED2027, -2px 2px 0px #CAE4F8; }
 
+.hamburger {
+  display: none;
+  transition: all .5s ease;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 0;
+  background: #1a453b;
+  padding: 10px 10px 5px;
+  margin-top: -29px;
+  z-index: 9999; }
+  @media (max-width: 991px) {
+    .hamburger {
+      display: block; } }
+  .hamburger span {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: -10px;
+    opacity: 0;
+    transition: all .5s ease; }
+  .hamburger .bar {
+    display: block;
+    height: 3px;
+    width: 2rem;
+    background: #FFFFFF;
+    margin: 0.5rem auto;
+    border-radius: 2px;
+    transition: all .5s ease; }
+  .hamburger .middle {
+    margin: 0 auto; }
+  .hamburger .bottom {
+    height: 0.16rem; }
+  .hamburger.open {
+    padding-top: 1rem;
+    margin-top: 0; }
+    .hamburger.open span {
+      display: block;
+      margin-top: 0;
+      opacity: 1;
+      transition: all .5s ease; }
+    .hamburger.open .top {
+      margin-bottom: -0.2rem; }
+    .hamburger.open .bottom {
+      margin-top: -0.2rem; }
+
 .sandwich {
   display: none;
   transition: all .5s ease;
@@ -5818,7 +5864,7 @@ ul#spirits-parallax-scene li.layer,
 ul#thanks-home-parallax-scene li.layer,
 ul#stays-home-parallax-scene li.layer,
 ul#newsletter-parallax-scene li.layer,
-ul#projections-parallax-scene li.layer,
+ul#projects-parallax-scene li.layer,
 ul#tale-parallax-scene li.layer,
 ul#marketplace-parallax-scene li.layer,
 ul#thanks-parallax-scene li.layer,
@@ -5834,7 +5880,7 @@ ul#fakes-parallax-scene li.layer {
   ul#thanks-home-parallax-scene li.layer img.equation,
   ul#stays-home-parallax-scene li.layer img.equation,
   ul#newsletter-parallax-scene li.layer img.equation,
-  ul#projections-parallax-scene li.layer img.equation,
+  ul#projects-parallax-scene li.layer img.equation,
   ul#tale-parallax-scene li.layer img.equation,
   ul#marketplace-parallax-scene li.layer img.equation,
   ul#thanks-parallax-scene li.layer img.equation,
@@ -5851,7 +5897,7 @@ ul#fakes-parallax-scene li.layer {
   ul#spirits-parallax-scene,
   ul#stays-home-parallax-scene,
   ul#newsletter-parallax-scene,
-  ul#projections-parallax-scene,
+  ul#projects-parallax-scene,
   ul#tale-parallax-scene,
   ul#marketplace-parallax-scene,
   ul#thanks-parallax-scene,
@@ -5989,15 +6035,15 @@ section#zodiac ul#zodiac-parallax-scene {
     left: 60%;
     z-index: -9999; }
 
-section#projections ul#projections-parallax-scene {
+section#projects ul#projects-parallax-scene {
   position: absolute;
   width: 100%; }
-  section#projections ul#projections-parallax-scene li.layer img.circle-large-magenta {
+  section#projects ul#projects-parallax-scene li.layer img.circle-large-magenta {
     width: 90px;
     top: 20px;
     left: 70%;
     z-index: -9999; }
-  section#projections ul#projections-parallax-scene li.layer img.half-circle-top-green {
+  section#projects ul#projects-parallax-scene li.layer img.half-circle-top-green {
     width: 70px;
     left: 90%;
     z-index: -9999; }
@@ -6747,17 +6793,17 @@ section#thanks-home {
       box-shadow: 0px 0px 0px 0px #EE2026;
       transition: all .3s ease; }
 
-section#projections {
+section#projects {
   clear: both;
   padding: 150px 50px 0;
   position: relative; }
   @media (max-width: 991px) {
-    section#projections {
+    section#projects {
       padding: 50px 50px 0; } }
   @media (max-width: 767px) {
-    section#projections {
+    section#projects {
       padding: 50px 20px 0; } }
-  section#projections h3 {
+  section#projects h3 {
     color: #1a453b;
     margin: 25px 0 90px;
     font-size: 40px;
@@ -6765,32 +6811,32 @@ section#projections {
     letter-spacing: 5px;
     text-shadow: -1px 1px 0px #FFFFFF, -2px 2px 0px #CAE4F8; }
     @media (max-width: 991px) {
-      section#projections h3 {
+      section#projects h3 {
         margin-bottom: 50px; } }
     @media (max-width: 767px) {
-      section#projections h3 {
+      section#projects h3 {
         font-size: 34px; } }
     @media (max-width: 543px) {
-      section#projections h3 {
+      section#projects h3 {
         text-align: center; } }
-  section#projections h4 {
+  section#projects h4 {
     text-transform: uppercase;
     color: #1a453b; }
-  section#projections ul#tabs {
+  section#projects ul#tabs {
     border: none; }
-    section#projections ul#tabs li {
+    section#projects ul#tabs li {
       float: left;
       display: block;
       text-align: center;
       margin-right: 40px; }
       @media (max-width: 991px) {
-        section#projections ul#tabs li {
+        section#projects ul#tabs li {
           margin-bottom: 30px; } }
       @media (max-width: 543px) {
-        section#projections ul#tabs li {
+        section#projects ul#tabs li {
           width: 100%;
           margin-right: 0; } }
-      section#projections ul#tabs li a {
+      section#projects ul#tabs li a {
         letter-spacing: 2px;
         clear: both;
         border: 1px solid #EE2026;
@@ -6805,76 +6851,76 @@ section#projections {
         color: #EE2026;
         transition: all .3s ease; }
         @media (max-width: 543px) {
-          section#projections ul#tabs li a {
+          section#projects ul#tabs li a {
             max-width: 100%;
             box-shadow: -5px 5px 0px 0px #EE2026, -4px 4px 0px 0px #EE2026, -3px 3px 0px 0px #EE2026, -2px 2px 0px 0px #EE2026, -1px 1px 0px 0px #EE2026, 0px 0px 0px 0px #EE2026; } }
-        section#projections ul#tabs li a:hover {
+        section#projects ul#tabs li a:hover {
           text-decoration: none;
           box-shadow: 0px 0px 0px 0px #EE2026;
           transition: all .3s ease; }
-      section#projections ul#tabs li:last-child {
+      section#projects ul#tabs li:last-child {
         margin-right: 0; }
-      section#projections ul#tabs li.active a {
+      section#projects ul#tabs li.active a {
         border: 1px solid #1a453b;
         box-shadow: -10px 10px 0px 0px #1a453b, -9px 9px 0px 0px #1a453b, -8px 8px 0px 0px #1a453b, -7px 7px 0px 0px #1a453b, -6px 6px 0px 0px #1a453b, -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b;
         color: #1a453b; }
         @media (max-width: 543px) {
-          section#projections ul#tabs li.active a {
+          section#projects ul#tabs li.active a {
             box-shadow: -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b; } }
-        section#projections ul#tabs li.active a:hover {
+        section#projects ul#tabs li.active a:hover {
           box-shadow: -10px 10px 0px 0px #1a453b, -9px 9px 0px 0px #1a453b, -8px 8px 0px 0px #1a453b, -7px 7px 0px 0px #1a453b, -6px 6px 0px 0px #1a453b, -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b;
           transition: none; }
           @media (max-width: 543px) {
-            section#projections ul#tabs li.active a:hover {
+            section#projects ul#tabs li.active a:hover {
               box-shadow: -5px 5px 0px 0px #1a453b, -4px 4px 0px 0px #1a453b, -3px 3px 0px 0px #1a453b, -2px 2px 0px 0px #1a453b, -1px 1px 0px 0px #1a453b, 0px 0px 0px 0px #1a453b; } }
-  section#projections div.tab-content ul li {
+  section#projects div.tab-content ul li {
     float: none;
     width: 100%;
     text-align: left;
     border-bottom: solid #D9D9D9; }
-  section#projections .tab-pane {
+  section#projects .tab-pane {
     padding-top: 100px; }
     @media (max-width: 991px) {
-      section#projections .tab-pane {
+      section#projects .tab-pane {
         padding-top: 50px; } }
-    section#projections .tab-pane h4 {
+    section#projects .tab-pane h4 {
       text-transform: uppercase;
       line-height: 35px; }
-    section#projections .tab-pane h5 {
+    section#projects .tab-pane h5 {
       margin-top: 50px;
       text-transform: uppercase;
       line-height: 30px; }
-    section#projections .tab-pane div.about {
+    section#projects .tab-pane div.about {
       margin-top: 50px;
       margin-bottom: 100px; }
       @media (max-width: 767px) {
-        section#projections .tab-pane div.about {
+        section#projects .tab-pane div.about {
           margin-bottom: 50px; } }
-      section#projections .tab-pane div.about img {
+      section#projects .tab-pane div.about img {
         width: 100%; }
         @media (max-width: 767px) {
-          section#projections .tab-pane div.about img {
+          section#projects .tab-pane div.about img {
             display: none; } }
-      section#projections .tab-pane div.about div.about-img-mobile {
+      section#projects .tab-pane div.about div.about-img-mobile {
         display: block;
         width: 100%;
         height: 300px;
         background-size: 100%;
         background-position: center; }
         @media (min-width: 768px) {
-          section#projections .tab-pane div.about div.about-img-mobile {
+          section#projects .tab-pane div.about div.about-img-mobile {
             display: none; } }
-      section#projections .tab-pane div.about .about-map,
-      section#projections .tab-pane div.about .accommodation-map {
+      section#projects .tab-pane div.about .about-map,
+      section#projects .tab-pane div.about .accommodation-map {
         width: 100%;
         height: 300px;
         margin: 0;
         border-top: 5px solid #FFFFFF; }
         @media (max-width: 767px) {
-          section#projections .tab-pane div.about .about-map,
-          section#projections .tab-pane div.about .accommodation-map {
+          section#projects .tab-pane div.about .about-map,
+          section#projects .tab-pane div.about .accommodation-map {
             display: none; } }
-      section#projections .tab-pane div.about div.projections {
+      section#projects .tab-pane div.about div.projects {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -6885,24 +6931,24 @@ section#projections {
         -webkit-flex-direction: row;
         -ms-flex-direction: row;
         flex-direction: row; }
-        section#projections .tab-pane div.about div.projections div.description {
+        section#projects .tab-pane div.about div.projects div.description {
           width: 60%; }
           @media (max-width: 767px) {
-            section#projections .tab-pane div.about div.projections div.description {
+            section#projects .tab-pane div.about div.projects div.description {
               width: 100%; }
-              section#projections .tab-pane div.about div.projections div.description h5 {
+              section#projects .tab-pane div.about div.projects div.description h5 {
                 margin-top: 25px; } }
-        section#projections .tab-pane div.about div.projections div.address {
+        section#projects .tab-pane div.about div.projects div.address {
           width: 40%;
           padding-left: 100px; }
           @media (max-width: 767px) {
-            section#projections .tab-pane div.about div.projections div.address {
+            section#projects .tab-pane div.about div.projects div.address {
               width: 100%;
               padding-left: 0; } }
           @media (max-width: 767px) {
-            section#projections .tab-pane div.about div.projections div.address h5 {
+            section#projects .tab-pane div.about div.projects div.address h5 {
               margin-top: 20px; } }
-          section#projections .tab-pane div.about div.projections div.address a {
+          section#projects .tab-pane div.about div.projects div.address a {
             border: 1px solid #EE2026;
             padding: 5px;
             text-align: center;
@@ -6912,10 +6958,10 @@ section#projections {
             width: 100%;
             display: block;
             text-transform: uppercase; }
-            section#projections .tab-pane div.about div.projections div.address a:hover {
+            section#projects .tab-pane div.about div.projects div.address a:hover {
               color: #1a453b;
               border-color: #1a453b; }
-    section#projections .tab-pane ul.film-festivals {
+    section#projects .tab-pane ul.film-festivals {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -6926,24 +6972,24 @@ section#projections {
       -webkit-flex-direction: row;
       -ms-flex-direction: row;
       flex-direction: row; }
-      section#projections .tab-pane ul.film-festivals li {
+      section#projects .tab-pane ul.film-festivals li {
         width: 25%;
         margin: 50px 0;
         border: none; }
         @media (max-width: 767px) {
-          section#projections .tab-pane ul.film-festivals li {
+          section#projects .tab-pane ul.film-festivals li {
             width: 100% !important;
             margin: 0 !important; } }
         @media (max-width: 991px) {
-          section#projections .tab-pane ul.film-festivals li {
+          section#projects .tab-pane ul.film-festivals li {
             width: 33.3%;
             margin-bottom: 20px; } }
-        section#projections .tab-pane ul.film-festivals li h5 {
+        section#projects .tab-pane ul.film-festivals li h5 {
           margin-top: 0; }
           @media (max-width: 767px) {
-            section#projections .tab-pane ul.film-festivals li h5 {
+            section#projects .tab-pane ul.film-festivals li h5 {
               margin-top: 20px; } }
-        section#projections .tab-pane ul.film-festivals li a {
+        section#projects .tab-pane ul.film-festivals li a {
           text-transform: uppercase;
           display: block;
           margin-top: 9px;
@@ -6953,13 +6999,13 @@ section#projections {
           max-width: 160px;
           margin-top: 20px;
           font-size: 12px; }
-          section#projections .tab-pane ul.film-festivals li a:hover {
+          section#projects .tab-pane ul.film-festivals li a:hover {
             color: #1a453b;
             border-color: #1a453b; }
-          section#projections .tab-pane ul.film-festivals li a span {
+          section#projects .tab-pane ul.film-festivals li a span {
             font-size: 12px;
             margin-left: 10px; }
-          section#projections .tab-pane ul.film-festivals li a.airbnb {
+          section#projects .tab-pane ul.film-festivals li a.airbnb {
             max-width: 100%;
             background: #FF5A5F;
             border-radius: 2px;
@@ -6969,37 +7015,37 @@ section#projections {
             float: left;
             margin-top: 0;
             border: none; }
-            section#projections .tab-pane ul.film-festivals li a.airbnb span {
+            section#projects .tab-pane ul.film-festivals li a.airbnb span {
               margin-left: 0; }
-            section#projections .tab-pane ul.film-festivals li a.airbnb img {
+            section#projects .tab-pane ul.film-festivals li a.airbnb img {
               display: block;
               width: 60%;
               margin: 20px auto 10px; }
         @media (max-width: 991px) {
-          section#projections .tab-pane ul.film-festivals li:last-child {
+          section#projects .tab-pane ul.film-festivals li:last-child {
             width: 100% !important;
             clear: both;
             margin-top: 20px; }
-            section#projections .tab-pane ul.film-festivals li:last-child a {
+            section#projects .tab-pane ul.film-festivals li:last-child a {
               width: 100%; }
-              section#projections .tab-pane ul.film-festivals li:last-child a span {
+              section#projects .tab-pane ul.film-festivals li:last-child a span {
                 float: left;
                 text-align: left;
                 margin-top: 1px; }
-              section#projections .tab-pane ul.film-festivals li:last-child a img {
+              section#projects .tab-pane ul.film-festivals li:last-child a img {
                 width: 150px;
                 float: right;
                 margin: -2px 0 0 0; } }
         @media (max-width: 767px) {
-          section#projections .tab-pane ul.film-festivals li:last-child {
+          section#projects .tab-pane ul.film-festivals li:last-child {
             margin: 50px 0 !important; }
-            section#projections .tab-pane ul.film-festivals li:last-child a span {
+            section#projects .tab-pane ul.film-festivals li:last-child a span {
               text-align: center;
               float: none; }
-            section#projections .tab-pane ul.film-festivals li:last-child a img {
+            section#projects .tab-pane ul.film-festivals li:last-child a img {
               float: none;
               margin: 20px auto 10px; } }
-    section#projections .tab-pane .team-members {
+    section#projects .tab-pane .team-members {
       margin-bottom: 50px;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -7011,27 +7057,27 @@ section#projections {
       -webkit-flex-direction: row;
       -ms-flex-direction: row;
       flex-direction: row; }
-      section#projections .tab-pane .team-members .team-member {
+      section#projects .tab-pane .team-members .team-member {
         font-weight: 500;
         margin-top: 50px;
         text-transform: uppercase;
         width: 25%; }
         @media (max-width: 767px) {
-          section#projections .tab-pane .team-members .team-member {
+          section#projects .tab-pane .team-members .team-member {
             width: 33.3%; } }
         @media (max-width: 543px) {
-          section#projections .tab-pane .team-members .team-member {
+          section#projects .tab-pane .team-members .team-member {
             width: 50%; } }
-  section#projections #about,
-  section#projections #why {
+  section#projects #about,
+  section#projects #why {
     max-width: 900px; }
-    section#projections #about iframe,
-    section#projections #why iframe {
+    section#projects #about iframe,
+    section#projects #why iframe {
       margin-top: 30px; }
-    section#projections #about h5.team-header,
-    section#projections #why h5.team-header {
+    section#projects #about h5.team-header,
+    section#projects #why h5.team-header {
       margin-top: 100px; }
-  section#projections .center-text {
+  section#projects .center-text {
     text-align: center; }
 
 section#spirits {
